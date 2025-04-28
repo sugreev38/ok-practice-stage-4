@@ -1,0 +1,809 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\ok practice stage 4\.npmrc
+5 silly config load:file:C:\Users\sugre\.npmrc
+6 silly config load:file:D:\ok practice stage 4\%APPDATA%\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--force"
+9 verbose logfile logs-max:10 dir:D:\ok practice stage 4\%APPDATA%\npm-cache\_logs\2025-04-27T05_24_56_823Z-
+10 verbose logfile D:\ok practice stage 4\%APPDATA%\npm-cache\_logs\2025-04-27T05_24_56_823Z-debug-0.log
+11 warn using --force Recommended protections disabled.
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 silly idealTree buildDeps
+15 silly fetch manifest react@^16.8.0 || ^17.0.0 || ^18.0.0
+16 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+17 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+18 http cache https://registry.npmjs.org/react 66ms (cache hit)
+19 silly packumentCache full:https://registry.npmjs.org/react set size:5633849 disposed:false
+20 warn ERESOLVE overriding peer dependency {
+20 warn ERESOLVE   code: 'ERESOLVE',
+20 warn ERESOLVE   edge: {
+20 warn ERESOLVE     type: 'peer',
+20 warn ERESOLVE     name: 'react',
+20 warn ERESOLVE     spec: '^16.8.0 || ^17.0.0 || ^18.0.0',
+20 warn ERESOLVE     error: 'INVALID',
+20 warn ERESOLVE     from: {
+20 warn ERESOLVE       name: 'react-day-picker',
+20 warn ERESOLVE       version: '8.10.1',
+20 warn ERESOLVE       location: 'node_modules/react-day-picker',
+20 warn ERESOLVE       isWorkspace: false,
+20 warn ERESOLVE       dependents: [Array]
+20 warn ERESOLVE     }
+20 warn ERESOLVE   },
+20 warn ERESOLVE   dep: {
+20 warn ERESOLVE     name: 'react',
+20 warn ERESOLVE     version: '18.3.1',
+20 warn ERESOLVE     whileInstalling: {
+20 warn ERESOLVE       name: 'react-day-picker',
+20 warn ERESOLVE       version: '8.10.1',
+20 warn ERESOLVE       path: 'D:\\ok practice stage 4\\node_modules\\react-day-picker'
+20 warn ERESOLVE     },
+20 warn ERESOLVE     location: 'node_modules/react',
+20 warn ERESOLVE     isWorkspace: false,
+20 warn ERESOLVE     dependents: [ [Object] ]
+20 warn ERESOLVE   },
+20 warn ERESOLVE   force: true,
+20 warn ERESOLVE   isMine: true,
+20 warn ERESOLVE   strictPeerDeps: false,
+20 warn ERESOLVE   current: {
+20 warn ERESOLVE     name: 'react',
+20 warn ERESOLVE     version: '19.1.0',
+20 warn ERESOLVE     location: 'node_modules/react',
+20 warn ERESOLVE     isWorkspace: false,
+20 warn ERESOLVE     dependents: [
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+20 warn ERESOLVE     ]
+20 warn ERESOLVE   },
+20 warn ERESOLVE   peerConflict: {
+20 warn ERESOLVE     current: {
+20 warn ERESOLVE       name: 'react',
+20 warn ERESOLVE       version: '19.1.0',
+20 warn ERESOLVE       location: 'node_modules/react',
+20 warn ERESOLVE       isWorkspace: false,
+20 warn ERESOLVE       dependents: [Array]
+20 warn ERESOLVE     },
+20 warn ERESOLVE     peer: {
+20 warn ERESOLVE       name: 'react',
+20 warn ERESOLVE       version: '18.3.1',
+20 warn ERESOLVE       whileInstalling: [Object],
+20 warn ERESOLVE       location: 'node_modules/react',
+20 warn ERESOLVE       isWorkspace: false,
+20 warn ERESOLVE       dependents: [Array]
+20 warn ERESOLVE     }
+20 warn ERESOLVE   }
+20 warn ERESOLVE }
+21 silly fetch manifest react@^16.8 || ^17.0 || ^18.0
+22 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+23 http cache https://registry.npmjs.org/react 473ms (cache hit)
+24 silly packumentCache full:https://registry.npmjs.org/react set size:5633849 disposed:false
+25 silly fetch manifest react-dom@^16.8 || ^17.0 || ^18.0
+26 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/react-dom 1690ms (cache miss)
+28 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+29 warn ERESOLVE overriding peer dependency {
+29 warn ERESOLVE   code: 'ERESOLVE',
+29 warn ERESOLVE   edge: {
+29 warn ERESOLVE     type: 'peer',
+29 warn ERESOLVE     name: 'react',
+29 warn ERESOLVE     spec: '^16.8 || ^17.0 || ^18.0',
+29 warn ERESOLVE     error: 'INVALID',
+29 warn ERESOLVE     from: {
+29 warn ERESOLVE       name: 'vaul',
+29 warn ERESOLVE       version: '0.9.9',
+29 warn ERESOLVE       location: 'node_modules/vaul',
+29 warn ERESOLVE       isWorkspace: false,
+29 warn ERESOLVE       dependents: [Array]
+29 warn ERESOLVE     }
+29 warn ERESOLVE   },
+29 warn ERESOLVE   dep: {
+29 warn ERESOLVE     name: 'react',
+29 warn ERESOLVE     version: '18.3.1',
+29 warn ERESOLVE     whileInstalling: {
+29 warn ERESOLVE       name: 'vaul',
+29 warn ERESOLVE       version: '0.9.9',
+29 warn ERESOLVE       path: 'D:\\ok practice stage 4\\node_modules\\vaul'
+29 warn ERESOLVE     },
+29 warn ERESOLVE     location: 'node_modules/react',
+29 warn ERESOLVE     isWorkspace: false,
+29 warn ERESOLVE     dependents: [ [Object] ]
+29 warn ERESOLVE   },
+29 warn ERESOLVE   force: true,
+29 warn ERESOLVE   isMine: true,
+29 warn ERESOLVE   strictPeerDeps: false,
+29 warn ERESOLVE   current: {
+29 warn ERESOLVE     name: 'react',
+29 warn ERESOLVE     version: '19.1.0',
+29 warn ERESOLVE     location: 'node_modules/react',
+29 warn ERESOLVE     isWorkspace: false,
+29 warn ERESOLVE     dependents: [
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+29 warn ERESOLVE     ]
+29 warn ERESOLVE   },
+29 warn ERESOLVE   peerConflict: {
+29 warn ERESOLVE     current: {
+29 warn ERESOLVE       name: 'react',
+29 warn ERESOLVE       version: '19.1.0',
+29 warn ERESOLVE       location: 'node_modules/react',
+29 warn ERESOLVE       isWorkspace: false,
+29 warn ERESOLVE       dependents: [Array]
+29 warn ERESOLVE     },
+29 warn ERESOLVE     peer: {
+29 warn ERESOLVE       name: 'react',
+29 warn ERESOLVE       version: '18.3.1',
+29 warn ERESOLVE       whileInstalling: [Object],
+29 warn ERESOLVE       location: 'node_modules/react',
+29 warn ERESOLVE       isWorkspace: false,
+29 warn ERESOLVE       dependents: [Array]
+29 warn ERESOLVE     }
+29 warn ERESOLVE   }
+29 warn ERESOLVE }
+30 warn ERESOLVE overriding peer dependency {
+30 warn ERESOLVE   code: 'ERESOLVE',
+30 warn ERESOLVE   edge: {
+30 warn ERESOLVE     type: 'peer',
+30 warn ERESOLVE     name: 'react-dom',
+30 warn ERESOLVE     spec: '^16.8 || ^17.0 || ^18.0',
+30 warn ERESOLVE     error: 'INVALID',
+30 warn ERESOLVE     from: {
+30 warn ERESOLVE       name: 'vaul',
+30 warn ERESOLVE       version: '0.9.9',
+30 warn ERESOLVE       location: 'node_modules/vaul',
+30 warn ERESOLVE       isWorkspace: false,
+30 warn ERESOLVE       dependents: [Array]
+30 warn ERESOLVE     }
+30 warn ERESOLVE   },
+30 warn ERESOLVE   dep: {
+30 warn ERESOLVE     name: 'react-dom',
+30 warn ERESOLVE     version: '18.3.1',
+30 warn ERESOLVE     whileInstalling: {
+30 warn ERESOLVE       name: 'vaul',
+30 warn ERESOLVE       version: '0.9.9',
+30 warn ERESOLVE       path: 'D:\\ok practice stage 4\\node_modules\\vaul'
+30 warn ERESOLVE     },
+30 warn ERESOLVE     location: 'node_modules/react-dom',
+30 warn ERESOLVE     isWorkspace: false,
+30 warn ERESOLVE     dependents: [ [Object] ]
+30 warn ERESOLVE   },
+30 warn ERESOLVE   force: true,
+30 warn ERESOLVE   isMine: true,
+30 warn ERESOLVE   strictPeerDeps: false,
+30 warn ERESOLVE   current: {
+30 warn ERESOLVE     name: 'react-dom',
+30 warn ERESOLVE     version: '19.1.0',
+30 warn ERESOLVE     location: 'node_modules/react-dom',
+30 warn ERESOLVE     isWorkspace: false,
+30 warn ERESOLVE     dependents: [
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object]
+30 warn ERESOLVE     ]
+30 warn ERESOLVE   },
+30 warn ERESOLVE   peerConflict: {
+30 warn ERESOLVE     current: {
+30 warn ERESOLVE       name: 'react-dom',
+30 warn ERESOLVE       version: '19.1.0',
+30 warn ERESOLVE       location: 'node_modules/react-dom',
+30 warn ERESOLVE       isWorkspace: false,
+30 warn ERESOLVE       dependents: [Array]
+30 warn ERESOLVE     },
+30 warn ERESOLVE     peer: {
+30 warn ERESOLVE       name: 'react-dom',
+30 warn ERESOLVE       version: '18.3.1',
+30 warn ERESOLVE       whileInstalling: [Object],
+30 warn ERESOLVE       location: 'node_modules/react-dom',
+30 warn ERESOLVE       isWorkspace: false,
+30 warn ERESOLVE       dependents: [Array]
+30 warn ERESOLVE     }
+30 warn ERESOLVE   }
+30 warn ERESOLVE }
+31 silly reify moves {}
+32 silly audit bulk request {
+32 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+32 silly audit   '@babel/runtime': [ '7.27.0' ],
+32 silly audit   '@emnapi/runtime': [ '1.4.3' ],
+32 silly audit   '@esbuild/aix-ppc64': [ '0.25.2' ],
+32 silly audit   '@esbuild/android-arm': [ '0.25.2' ],
+32 silly audit   '@esbuild/android-arm64': [ '0.25.2' ],
+32 silly audit   '@esbuild/android-x64': [ '0.25.2' ],
+32 silly audit   '@esbuild/darwin-arm64': [ '0.25.2' ],
+32 silly audit   '@esbuild/darwin-x64': [ '0.25.2' ],
+32 silly audit   '@esbuild/freebsd-arm64': [ '0.25.2' ],
+32 silly audit   '@esbuild/freebsd-x64': [ '0.25.2' ],
+32 silly audit   '@esbuild/linux-arm': [ '0.25.2' ],
+32 silly audit   '@esbuild/linux-arm64': [ '0.25.2' ],
+32 silly audit   '@esbuild/linux-ia32': [ '0.25.2' ],
+32 silly audit   '@esbuild/linux-loong64': [ '0.25.2' ],
+32 silly audit   '@esbuild/linux-mips64el': [ '0.25.2' ],
+32 silly audit   '@esbuild/linux-ppc64': [ '0.25.2' ],
+32 silly audit   '@esbuild/linux-riscv64': [ '0.25.2' ],
+32 silly audit   '@esbuild/linux-s390x': [ '0.25.2' ],
+32 silly audit   '@esbuild/linux-x64': [ '0.25.2' ],
+32 silly audit   '@esbuild/netbsd-arm64': [ '0.25.2' ],
+32 silly audit   '@esbuild/netbsd-x64': [ '0.25.2' ],
+32 silly audit   '@esbuild/openbsd-arm64': [ '0.25.2' ],
+32 silly audit   '@esbuild/openbsd-x64': [ '0.25.2' ],
+32 silly audit   '@esbuild/sunos-x64': [ '0.25.2' ],
+32 silly audit   '@esbuild/win32-arm64': [ '0.25.2' ],
+32 silly audit   '@esbuild/win32-ia32': [ '0.25.2' ],
+32 silly audit   '@esbuild/win32-x64': [ '0.25.2' ],
+32 silly audit   '@floating-ui/core': [ '1.6.9' ],
+32 silly audit   '@floating-ui/dom': [ '1.6.13' ],
+32 silly audit   '@floating-ui/react-dom': [ '2.1.2' ],
+32 silly audit   '@floating-ui/utils': [ '0.2.9' ],
+32 silly audit   '@hookform/resolvers': [ '3.10.0' ],
+32 silly audit   '@img/sharp-darwin-arm64': [ '0.33.5' ],
+32 silly audit   '@img/sharp-darwin-x64': [ '0.33.5' ],
+32 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.0.4' ],
+32 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.0.4' ],
+32 silly audit   '@img/sharp-libvips-linux-arm': [ '1.0.5' ],
+32 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.0.4' ],
+32 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.0.4' ],
+32 silly audit   '@img/sharp-libvips-linux-x64': [ '1.0.4' ],
+32 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.0.4' ],
+32 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.0.4' ],
+32 silly audit   '@img/sharp-linux-arm': [ '0.33.5' ],
+32 silly audit   '@img/sharp-linux-arm64': [ '0.33.5' ],
+32 silly audit   '@img/sharp-linux-s390x': [ '0.33.5' ],
+32 silly audit   '@img/sharp-linux-x64': [ '0.33.5' ],
+32 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.33.5' ],
+32 silly audit   '@img/sharp-linuxmusl-x64': [ '0.33.5' ],
+32 silly audit   '@img/sharp-wasm32': [ '0.33.5' ],
+32 silly audit   '@img/sharp-win32-ia32': [ '0.33.5' ],
+32 silly audit   '@img/sharp-win32-x64': [ '0.33.5' ],
+32 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+32 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+32 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+32 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+32 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+32 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+32 silly audit   '@next/env': [ '15.2.4' ],
+32 silly audit   '@next/swc-darwin-arm64': [ '15.2.4' ],
+32 silly audit   '@next/swc-darwin-x64': [ '15.2.4' ],
+32 silly audit   '@next/swc-linux-arm64-gnu': [ '15.2.4' ],
+32 silly audit   '@next/swc-linux-arm64-musl': [ '15.2.4' ],
+32 silly audit   '@next/swc-linux-x64-gnu': [ '15.2.4' ],
+32 silly audit   '@next/swc-linux-x64-musl': [ '15.2.4' ],
+32 silly audit   '@next/swc-win32-arm64-msvc': [ '15.2.4' ],
+32 silly audit   '@next/swc-win32-x64-msvc': [ '15.2.4' ],
+32 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+32 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+32 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+32 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+32 silly audit   '@prisma/client': [ '6.6.0' ],
+32 silly audit   '@prisma/config': [ '6.6.0' ],
+32 silly audit   '@prisma/debug': [ '6.6.0' ],
+32 silly audit   '@prisma/engines': [ '6.6.0' ],
+32 silly audit   '@prisma/engines-version': [ '6.6.0-53.f676762280b54cd07c770017ed3711ddde35f37a' ],
+32 silly audit   '@prisma/fetch-engine': [ '6.6.0' ],
+32 silly audit   '@prisma/get-platform': [ '6.6.0' ],
+32 silly audit   '@radix-ui/number': [ '1.1.1' ],
+32 silly audit   '@radix-ui/primitive': [ '1.1.2' ],
+32 silly audit   '@radix-ui/react-accordion': [ '1.2.7' ],
+32 silly audit   '@radix-ui/react-alert-dialog': [ '1.1.10' ],
+32 silly audit   '@radix-ui/react-arrow': [ '1.1.4' ],
+32 silly audit   '@radix-ui/react-aspect-ratio': [ '1.1.4' ],
+32 silly audit   '@radix-ui/react-avatar': [ '1.1.6' ],
+32 silly audit   '@radix-ui/react-checkbox': [ '1.2.2' ],
+32 silly audit   '@radix-ui/react-collapsible': [ '1.1.7' ],
+32 silly audit   '@radix-ui/react-collection': [ '1.1.4' ],
+32 silly audit   '@radix-ui/react-compose-refs': [ '1.1.2' ],
+32 silly audit   '@radix-ui/react-context': [ '1.1.2' ],
+32 silly audit   '@radix-ui/react-context-menu': [ '2.2.11' ],
+32 silly audit   '@radix-ui/react-dialog': [ '1.1.10' ],
+32 silly audit   '@radix-ui/react-direction': [ '1.1.1' ],
+32 silly audit   '@radix-ui/react-dismissable-layer': [ '1.1.7' ],
+32 silly audit   '@radix-ui/react-dropdown-menu': [ '2.1.11' ],
+32 silly audit   '@radix-ui/react-focus-guards': [ '1.1.2' ],
+32 silly audit   '@radix-ui/react-focus-scope': [ '1.1.4' ],
+32 silly audit   '@radix-ui/react-hover-card': [ '1.1.10' ],
+32 silly audit   '@radix-ui/react-id': [ '1.1.1' ],
+32 silly audit   '@radix-ui/react-label': [ '2.1.4' ],
+32 silly audit   '@radix-ui/react-menu': [ '2.1.11' ],
+32 silly audit   '@radix-ui/react-menubar': [ '1.1.11' ],
+32 silly audit   '@radix-ui/react-navigation-menu': [ '1.2.9' ],
+32 silly audit   '@radix-ui/react-popover': [ '1.1.10' ],
+32 silly audit   '@radix-ui/react-popper': [ '1.2.4' ],
+32 silly audit   '@radix-ui/react-portal': [ '1.1.6' ],
+32 silly audit   '@radix-ui/react-presence': [ '1.1.3' ],
+32 silly audit   '@radix-ui/react-primitive': [ '2.1.0' ],
+32 silly audit   '@radix-ui/react-progress': [ '1.1.4' ],
+32 silly audit   '@radix-ui/react-radio-group': [ '1.3.3' ],
+32 silly audit   '@radix-ui/react-roving-focus': [ '1.1.7' ],
+32 silly audit   '@radix-ui/react-scroll-area': [ '1.2.5' ],
+32 silly audit   '@radix-ui/react-select': [ '2.2.2' ],
+32 silly audit   '@radix-ui/react-separator': [ '1.1.4' ],
+32 silly audit   '@radix-ui/react-slider': [ '1.3.2' ],
+32 silly audit   '@radix-ui/react-slot': [ '1.2.0' ],
+32 silly audit   '@radix-ui/react-switch': [ '1.2.2' ],
+32 silly audit   '@radix-ui/react-tabs': [ '1.1.8' ],
+32 silly audit   '@radix-ui/react-toast': [ '1.2.10' ],
+32 silly audit   '@radix-ui/react-toggle': [ '1.1.6' ],
+32 silly audit   '@radix-ui/react-toggle-group': [ '1.1.7' ],
+32 silly audit   '@radix-ui/react-tooltip': [ '1.2.3' ],
+32 silly audit   '@radix-ui/react-use-callback-ref': [ '1.1.1' ],
+32 silly audit   '@radix-ui/react-use-controllable-state': [ '1.2.2' ],
+32 silly audit   '@radix-ui/react-use-effect-event': [ '0.0.2' ],
+32 silly audit   '@radix-ui/react-use-escape-keydown': [ '1.1.1' ],
+32 silly audit   '@radix-ui/react-use-is-hydrated': [ '0.0.0' ],
+32 silly audit   '@radix-ui/react-use-layout-effect': [ '1.1.1' ],
+32 silly audit   '@radix-ui/react-use-previous': [ '1.1.1' ],
+32 silly audit   '@radix-ui/react-use-rect': [ '1.1.1' ],
+32 silly audit   '@radix-ui/react-use-size': [ '1.1.1' ],
+32 silly audit   '@radix-ui/react-visually-hidden': [ '1.2.0' ],
+32 silly audit   '@radix-ui/rect': [ '1.1.1' ],
+32 silly audit   '@swc/counter': [ '0.1.3' ],
+32 silly audit   '@swc/helpers': [ '0.5.15' ],
+32 silly audit   '@types/d3-array': [ '3.2.1' ],
+32 silly audit   '@types/d3-color': [ '3.1.3' ],
+32 silly audit   '@types/d3-ease': [ '3.0.2' ],
+32 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+32 silly audit   '@types/d3-path': [ '3.1.1' ],
+32 silly audit   '@types/d3-scale': [ '4.0.9' ],
+32 silly audit   '@types/d3-shape': [ '3.1.7' ],
+32 silly audit   '@types/d3-time': [ '3.0.4' ],
+32 silly audit   '@types/d3-timer': [ '3.0.2' ],
+32 silly audit   '@types/jsonwebtoken': [ '9.0.9' ],
+32 silly audit   '@types/ms': [ '2.1.0' ],
+32 silly audit   '@types/node': [ '22.14.1' ],
+32 silly audit   '@types/nodemailer': [ '6.4.17' ],
+32 silly audit   '@types/react': [ '19.1.2' ],
+32 silly audit   '@types/react-dom': [ '19.1.2' ],
+32 silly audit   'agent-base': [ '6.0.2' ],
+32 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+32 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+32 silly audit   'any-promise': [ '1.3.0' ],
+32 silly audit   anymatch: [ '3.1.3' ],
+32 silly audit   arg: [ '5.0.2' ],
+32 silly audit   'aria-hidden': [ '1.2.4' ],
+32 silly audit   asynckit: [ '0.4.0' ],
+32 silly audit   autoprefixer: [ '10.4.21' ],
+32 silly audit   axios: [ '1.8.4' ],
+32 silly audit   'balanced-match': [ '1.0.2' ],
+32 silly audit   bcryptjs: [ '3.0.2' ],
+32 silly audit   'binary-extensions': [ '2.3.0' ],
+32 silly audit   'brace-expansion': [ '2.0.1' ],
+32 silly audit   braces: [ '3.0.3' ],
+32 silly audit   browserslist: [ '4.24.4' ],
+32 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+32 silly audit   busboy: [ '1.6.0' ],
+32 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+32 silly audit   'call-bound': [ '1.0.4' ],
+32 silly audit   'camelcase-css': [ '2.0.1' ],
+32 silly audit   'caniuse-lite': [ '1.0.30001715' ],
+32 silly audit   chokidar: [ '3.6.0' ],
+32 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+32 silly audit   'class-variance-authority': [ '0.7.1' ],
+32 silly audit   'client-only': [ '0.0.1' ],
+32 silly audit   clsx: [ '2.1.1' ],
+32 silly audit   cmdk: [ '1.0.4' ],
+32 silly audit   color: [ '4.2.3' ],
+32 silly audit   'color-convert': [ '2.0.1' ],
+32 silly audit   'color-name': [ '1.1.4' ],
+32 silly audit   'color-string': [ '1.9.1' ],
+32 silly audit   'combined-stream': [ '1.0.8' ],
+32 silly audit   commander: [ '4.1.1' ],
+32 silly audit   'cross-spawn': [ '7.0.6' ],
+32 silly audit   crypto: [ '1.0.1' ],
+32 silly audit   cssesc: [ '3.0.0' ],
+32 silly audit   csstype: [ '3.1.3' ],
+32 silly audit   'd3-array': [ '3.2.4' ],
+32 silly audit   'd3-color': [ '3.1.0' ],
+32 silly audit   'd3-ease': [ '3.0.1' ],
+32 silly audit   'd3-format': [ '3.1.0' ],
+32 silly audit   'd3-interpolate': [ '3.0.1' ],
+32 silly audit   'd3-path': [ '3.1.0' ],
+32 silly audit   'd3-scale': [ '4.0.2' ],
+32 silly audit   'd3-shape': [ '3.2.0' ],
+32 silly audit   'd3-time': [ '3.1.0' ],
+32 silly audit   'd3-time-format': [ '4.1.0' ],
+32 silly audit   'd3-timer': [ '3.0.1' ],
+32 silly audit   'date-fns': [ '3.6.0' ],
+32 silly audit   dayjs: [ '1.11.13' ],
+32 silly audit   debug: [ '4.4.0' ],
+32 silly audit   'decimal.js-light': [ '2.5.1' ],
+32 silly audit   'delayed-stream': [ '1.0.0' ],
+32 silly audit   'detect-libc': [ '2.0.3' ],
+32 silly audit   'detect-node-es': [ '1.1.0' ],
+32 silly audit   didyoumean: [ '1.2.2' ],
+32 silly audit   dlv: [ '1.1.3' ],
+32 silly audit   'dom-helpers': [ '5.2.1' ],
+32 silly audit   dotenv: [ '16.5.0' ],
+32 silly audit   'dunder-proto': [ '1.0.1' ],
+32 silly audit   eastasianwidth: [ '0.2.0' ],
+32 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+32 silly audit   'electron-to-chromium': [ '1.5.139' ],
+32 silly audit   'embla-carousel': [ '8.5.1' ],
+32 silly audit   'embla-carousel-react': [ '8.5.1' ],
+32 silly audit   'embla-carousel-reactive-utils': [ '8.5.1' ],
+32 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+32 silly audit   'es-define-property': [ '1.0.1' ],
+32 silly audit   'es-errors': [ '1.3.0' ],
+32 silly audit   'es-object-atoms': [ '1.1.1' ],
+32 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+32 silly audit   esbuild: [ '0.25.2' ],
+32 silly audit   'esbuild-register': [ '3.6.0' ],
+32 silly audit   escalade: [ '3.2.0' ],
+32 silly audit   eventemitter3: [ '4.0.7' ],
+32 silly audit   'fast-equals': [ '5.2.2' ],
+32 silly audit   'fast-glob': [ '3.3.3' ],
+32 silly audit   fastq: [ '1.19.1' ],
+32 silly audit   'fill-range': [ '7.1.1' ],
+32 silly audit   'follow-redirects': [ '1.15.9' ],
+32 silly audit   'foreground-child': [ '3.3.1' ],
+32 silly audit   'form-data': [ '4.0.2' ],
+32 silly audit   'fraction.js': [ '4.3.7' ],
+32 silly audit   fsevents: [ '2.3.3' ],
+32 silly audit   'function-bind': [ '1.1.2' ],
+32 silly audit   'get-intrinsic': [ '1.3.0' ],
+32 silly audit   'get-nonce': [ '1.0.1' ],
+32 silly audit   'get-proto': [ '1.0.1' ],
+32 silly audit   glob: [ '10.4.5' ],
+32 silly audit   gopd: [ '1.2.0' ],
+32 silly audit   'has-symbols': [ '1.1.0' ],
+32 silly audit   'has-tostringtag': [ '1.0.2' ],
+32 silly audit   hasown: [ '2.0.2' ],
+32 silly audit   'https-proxy-agent': [ '5.0.1' ],
+32 silly audit   immer: [ '10.1.1' ],
+32 silly audit   'input-otp': [ '1.4.1' ],
+32 silly audit   internmap: [ '2.0.3' ],
+32 silly audit   'is-arrayish': [ '0.3.2' ],
+32 silly audit   'is-binary-path': [ '2.1.0' ],
+32 silly audit   'is-core-module': [ '2.16.1' ],
+32 silly audit   'is-extglob': [ '2.1.1' ],
+32 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+32 silly audit   'is-glob': [ '4.0.3' ],
+32 silly audit   'is-number': [ '7.0.0' ],
+32 silly audit   isexe: [ '2.0.0' ],
+32 silly audit   jackspeak: [ '3.4.3' ],
+32 silly audit   jiti: [ '1.21.7' ],
+32 silly audit   jose: [ '6.0.10' ],
+32 silly audit   'js-tokens': [ '4.0.0' ],
+32 silly audit   jsonwebtoken: [ '9.0.2' ],
+32 silly audit   jwa: [ '1.4.1' ],
+32 silly audit   jws: [ '3.2.2' ],
+32 silly audit   'jwt-decode': [ '4.0.0' ],
+32 silly audit   lilconfig: [ '3.1.3' ],
+32 silly audit   'lines-and-columns': [ '1.2.4' ],
+32 silly audit   lodash: [ '4.17.21' ],
+32 silly audit   'lodash.includes': [ '4.3.0' ],
+32 silly audit   'lodash.isboolean': [ '3.0.3' ],
+32 silly audit   'lodash.isinteger': [ '4.0.4' ],
+32 silly audit   'lodash.isnumber': [ '3.0.3' ],
+32 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+32 silly audit   'lodash.isstring': [ '4.0.1' ],
+32 silly audit   'lodash.once': [ '4.1.1' ],
+32 silly audit   'loose-envify': [ '1.4.0' ],
+32 silly audit   'lru-cache': [ '10.4.3' ],
+32 silly audit   'lucide-react': [ '0.454.0' ],
+32 silly audit   'math-intrinsics': [ '1.1.0' ],
+32 silly audit   merge2: [ '1.4.1' ],
+32 silly audit   micromatch: [ '4.0.8' ],
+32 silly audit   'mime-db': [ '1.52.0' ],
+32 silly audit   'mime-types': [ '2.1.35' ],
+32 silly audit   minimatch: [ '9.0.5' ],
+32 silly audit   minipass: [ '7.1.2' ],
+32 silly audit   ms: [ '2.1.3' ],
+32 silly audit   mz: [ '2.7.0' ],
+32 silly audit   nanoid: [ '3.3.11' ],
+32 silly audit   next: [ '15.2.4' ],
+32 silly audit   'next-themes': [ '0.4.6' ],
+32 silly audit   postcss: [ '8.4.31', '8.5.3' ],
+32 silly audit   'node-releases': [ '2.0.19' ],
+32 silly audit   nodemailer: [ '6.10.1' ],
+32 silly audit   'normalize-path': [ '3.0.0' ],
+32 silly audit   'normalize-range': [ '0.1.2' ],
+32 silly audit   'object-assign': [ '4.1.1' ],
+32 silly audit   'object-hash': [ '3.0.0' ],
+32 silly audit   'object-inspect': [ '1.13.4' ],
+32 silly audit   'package-json-from-dist': [ '1.0.1' ],
+32 silly audit   'path-key': [ '3.1.1' ],
+32 silly audit   'path-parse': [ '1.0.7' ],
+32 silly audit   'path-scurry': [ '1.11.1' ],
+32 silly audit   picocolors: [ '1.1.1' ],
+32 silly audit   picomatch: [ '2.3.1' ],
+32 silly audit   pify: [ '2.3.0' ],
+32 silly audit   pirates: [ '4.0.7' ],
+32 silly audit   'postcss-import': [ '15.1.0' ],
+32 silly audit   'postcss-js': [ '4.0.1' ],
+32 silly audit   'postcss-nested': [ '6.2.0' ],
+32 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+32 silly audit   'postcss-value-parser': [ '4.2.0' ],
+32 silly audit   prisma: [ '6.6.0' ],
+32 silly audit   'prop-types': [ '15.8.1' ],
+32 silly audit   'react-is': [ '16.13.1', '18.3.1' ],
+32 silly audit   'proxy-from-env': [ '1.1.0' ],
+32 silly audit   qs: [ '6.14.0' ],
+32 silly audit   'queue-microtask': [ '1.2.3' ],
+32 silly audit   razorpay: [ '2.9.6' ],
+32 silly audit   react: [ '19.1.0' ],
+32 silly audit   'react-day-picker': [ '8.10.1' ],
+32 silly audit   'react-dom': [ '19.1.0' ],
+32 silly audit   'react-hook-form': [ '7.56.0' ],
+32 silly audit   'react-remove-scroll': [ '2.6.3' ],
+32 silly audit   'react-remove-scroll-bar': [ '2.3.8' ],
+32 silly audit   'react-resizable-panels': [ '2.1.8' ],
+32 silly audit   'react-smooth': [ '4.0.4' ],
+32 silly audit   'react-style-singleton': [ '2.2.3' ],
+32 silly audit   'react-transition-group': [ '4.4.5' ],
+32 silly audit   'read-cache': [ '1.0.0' ],
+32 silly audit   readdirp: [ '3.6.0' ],
+32 silly audit   recharts: [ '2.15.3' ],
+32 silly audit   'recharts-scale': [ '0.4.5' ],
+32 silly audit   'regenerator-runtime': [ '0.14.1' ],
+32 silly audit   resolve: [ '1.22.10' ],
+32 silly audit   reusify: [ '1.1.0' ],
+32 silly audit   'run-parallel': [ '1.2.0' ],
+32 silly audit   'safe-buffer': [ '5.2.1' ],
+32 silly audit   scheduler: [ '0.26.0' ],
+32 silly audit   scmp: [ '2.1.0' ],
+32 silly audit   semver: [ '7.7.1' ],
+32 silly audit   sharp: [ '0.33.5' ],
+32 silly audit   'shebang-command': [ '2.0.0' ],
+32 silly audit   'shebang-regex': [ '3.0.0' ],
+32 silly audit   'side-channel': [ '1.1.0' ],
+32 silly audit   'side-channel-list': [ '1.0.0' ],
+32 silly audit   'side-channel-map': [ '1.0.1' ],
+32 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+32 silly audit   'signal-exit': [ '4.1.0' ],
+32 silly audit   'simple-swizzle': [ '0.2.2' ],
+32 silly audit   sonner: [ '1.7.4' ],
+32 silly audit   'source-map-js': [ '1.2.1' ],
+32 silly audit   streamsearch: [ '1.1.0' ],
+32 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+32 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+32 silly audit   'styled-jsx': [ '5.1.6' ],
+32 silly audit   sucrase: [ '3.35.0' ],
+32 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+32 silly audit   'tailwind-merge': [ '2.6.0' ],
+32 silly audit   tailwindcss: [ '3.4.17' ],
+32 silly audit   'tailwindcss-animate': [ '1.0.7' ],
+32 silly audit   'postcss-load-config': [ '4.0.2' ],
+32 silly audit   thenify: [ '3.3.1' ],
+32 silly audit   'thenify-all': [ '1.6.0' ],
+32 silly audit   'tiny-invariant': [ '1.3.3' ],
+32 silly audit   'to-regex-range': [ '5.0.1' ],
+32 silly audit   'ts-interface-checker': [ '0.1.13' ],
+32 silly audit   tslib: [ '2.8.1' ],
+32 silly audit   twilio: [ '5.5.2' ],
+32 silly audit   typescript: [ '5.8.3' ],
+32 silly audit   'undici-types': [ '6.21.0' ],
+32 silly audit   'update-browserslist-db': [ '1.1.3' ],
+32 silly audit   'use-callback-ref': [ '1.3.3' ],
+32 silly audit   'use-sidecar': [ '1.1.3' ],
+32 silly audit   'use-sync-external-store': [ '1.5.0' ],
+32 silly audit   'util-deprecate': [ '1.0.2' ],
+32 silly audit   vaul: [ '0.9.9' ],
+32 silly audit   'victory-vendor': [ '36.9.2' ],
+32 silly audit   which: [ '2.0.2' ],
+32 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+32 silly audit   xmlbuilder: [ '13.0.2' ],
+32 silly audit   yaml: [ '2.7.1' ],
+32 silly audit   zod: [ '3.24.3' ],
+32 silly audit   zustand: [ '5.0.3' ]
+32 silly audit }
+33 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\fsevents
+34 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\fsevents' ]
+35 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-win32-arm64-msvc
+36 silly reify mark deleted [
+36 silly reify   'D:\\ok practice stage 4\\node_modules\\@next\\swc-win32-arm64-msvc'
+36 silly reify ]
+37 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-linux-x64-musl
+38 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@next\\swc-linux-x64-musl' ]
+39 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-linux-x64-gnu
+40 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@next\\swc-linux-x64-gnu' ]
+41 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-linux-arm64-musl
+42 silly reify mark deleted [
+42 silly reify   'D:\\ok practice stage 4\\node_modules\\@next\\swc-linux-arm64-musl'
+42 silly reify ]
+43 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-linux-arm64-gnu
+44 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@next\\swc-linux-arm64-gnu' ]
+45 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-darwin-x64
+46 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@next\\swc-darwin-x64' ]
+47 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-darwin-arm64
+48 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@next\\swc-darwin-arm64' ]
+49 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-win32-ia32
+50 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-win32-ia32' ]
+51 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-wasm32
+52 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-wasm32' ]
+53 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@emnapi\runtime
+54 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@emnapi\\runtime' ]
+55 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linuxmusl-x64
+56 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linuxmusl-x64' ]
+57 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linuxmusl-arm64
+58 silly reify mark deleted [
+58 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linuxmusl-arm64'
+58 silly reify ]
+59 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linux-x64
+60 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linux-x64' ]
+61 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linux-s390x
+62 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linux-s390x' ]
+63 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linux-arm64
+64 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linux-arm64' ]
+65 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linux-arm
+66 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linux-arm' ]
+67 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linuxmusl-x64
+68 silly reify mark deleted [
+68 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+68 silly reify ]
+69 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linuxmusl-arm64
+70 silly reify mark deleted [
+70 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+70 silly reify ]
+71 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linux-x64
+72 silly reify mark deleted [
+72 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linux-x64'
+72 silly reify ]
+73 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linux-s390x
+74 silly reify mark deleted [
+74 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linux-s390x'
+74 silly reify ]
+75 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linux-arm64
+76 silly reify mark deleted [
+76 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linux-arm64'
+76 silly reify ]
+77 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linux-arm
+78 silly reify mark deleted [
+78 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linux-arm'
+78 silly reify ]
+79 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-darwin-x64
+80 silly reify mark deleted [
+80 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-darwin-x64'
+80 silly reify ]
+81 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-darwin-arm64
+82 silly reify mark deleted [
+82 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+82 silly reify ]
+83 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-darwin-x64
+84 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-darwin-x64' ]
+85 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-darwin-arm64
+86 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-darwin-arm64' ]
+87 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\win32-ia32
+88 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\win32-ia32' ]
+89 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\win32-arm64
+90 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\win32-arm64' ]
+91 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\sunos-x64
+92 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\sunos-x64' ]
+93 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\openbsd-x64
+94 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\openbsd-x64' ]
+95 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\openbsd-arm64
+96 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\openbsd-arm64' ]
+97 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\netbsd-x64
+98 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\netbsd-x64' ]
+99 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\netbsd-arm64
+100 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\netbsd-arm64' ]
+101 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-x64
+102 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-x64' ]
+103 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-s390x
+104 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-s390x' ]
+105 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-riscv64
+106 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-riscv64' ]
+107 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-ppc64
+108 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-ppc64' ]
+109 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-mips64el
+110 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-mips64el' ]
+111 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-loong64
+112 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-loong64' ]
+113 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-ia32
+114 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-ia32' ]
+115 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-arm64
+116 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-arm64' ]
+117 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-arm
+118 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-arm' ]
+119 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\freebsd-x64
+120 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\freebsd-x64' ]
+121 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\freebsd-arm64
+122 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\freebsd-arm64' ]
+123 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\darwin-x64
+124 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\darwin-x64' ]
+125 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\darwin-arm64
+126 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\darwin-arm64' ]
+127 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\android-x64
+128 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\android-x64' ]
+129 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\android-arm64
+130 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\android-arm64' ]
+131 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\android-arm
+132 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\android-arm' ]
+133 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\aix-ppc64
+134 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\aix-ppc64' ]
+135 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.4.3.tgz 0ms (cache hit)
+136 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.4.3.tgz. Extracting by manifest.
+137 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 390ms
+138 silly audit report {}
+139 http fetch GET 200 https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.4.3.tgz 413ms (cache miss)
+140 silly ADD
+141 silly ADD
+142 silly ADD
+143 silly ADD
+144 silly ADD
+145 silly ADD
+146 silly ADD
+147 silly ADD
+148 silly ADD
+149 silly ADD
+150 silly ADD
+151 silly ADD
+152 silly ADD
+153 silly ADD
+154 silly ADD
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 verbose cwd D:\ok practice stage 4
+192 verbose os Windows_NT 10.0.26100
+193 verbose node v22.14.0
+194 verbose npm  v10.9.2
+195 verbose exit 0
+196 info ok

@@ -1,0 +1,193 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\ok practice stage 4\.npmrc
+5 silly config load:file:C:\Users\sugre\.npmrc
+6 silly config load:file:D:\ok practice stage 4\%APPDATA%\npm\etc\npmrc
+7 verbose title npm install react
+8 verbose argv "install" "react"
+9 verbose logfile logs-max:10 dir:D:\ok practice stage 4\%APPDATA%\npm-cache\_logs\2025-04-27T05_27_17_776Z-
+10 verbose logfile D:\ok practice stage 4\%APPDATA%\npm-cache\_logs\2025-04-27T05_27_17_776Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest react@^19.1.0
+15 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+16 http cache https://registry.npmjs.org/react 521ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/react set size:5633849 disposed:false
+18 silly placeDep ROOT react@19.1.0 REPLACE for: my-v0-project@0.1.0 want: ^19.1.0
+19 warn ERESOLVE overriding peer dependency {
+19 warn ERESOLVE   code: 'ERESOLVE',
+19 warn ERESOLVE   edge: {
+19 warn ERESOLVE     type: 'peer',
+19 warn ERESOLVE     name: 'react',
+19 warn ERESOLVE     spec: '^16.8.0 || ^17.0.0 || ^18.0.0',
+19 warn ERESOLVE     error: 'INVALID',
+19 warn ERESOLVE     from: {
+19 warn ERESOLVE       name: 'react-day-picker',
+19 warn ERESOLVE       version: '8.10.1',
+19 warn ERESOLVE       location: 'node_modules/react-day-picker',
+19 warn ERESOLVE       isWorkspace: false,
+19 warn ERESOLVE       dependents: [Array]
+19 warn ERESOLVE     }
+19 warn ERESOLVE   },
+19 warn ERESOLVE   dep: {
+19 warn ERESOLVE     name: 'react',
+19 warn ERESOLVE     version: '19.1.0',
+19 warn ERESOLVE     whileInstalling: {
+19 warn ERESOLVE       name: 'my-v0-project',
+19 warn ERESOLVE       version: '0.1.0',
+19 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+19 warn ERESOLVE     },
+19 warn ERESOLVE     location: 'node_modules/react',
+19 warn ERESOLVE     isWorkspace: false,
+19 warn ERESOLVE     dependents: [ [Object] ]
+19 warn ERESOLVE   },
+19 warn ERESOLVE   force: false,
+19 warn ERESOLVE   isMine: true,
+19 warn ERESOLVE   strictPeerDeps: false,
+19 warn ERESOLVE   current: {
+19 warn ERESOLVE     name: 'react',
+19 warn ERESOLVE     version: '19.1.0',
+19 warn ERESOLVE     location: 'node_modules/react',
+19 warn ERESOLVE     isWorkspace: false,
+19 warn ERESOLVE     dependents: [
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+19 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+19 warn ERESOLVE     ]
+19 warn ERESOLVE   }
+19 warn ERESOLVE }
+20 warn ERESOLVE overriding peer dependency {
+20 warn ERESOLVE   code: 'ERESOLVE',
+20 warn ERESOLVE   edge: {
+20 warn ERESOLVE     type: 'peer',
+20 warn ERESOLVE     name: 'react',
+20 warn ERESOLVE     spec: '^16.8 || ^17.0 || ^18.0',
+20 warn ERESOLVE     error: 'INVALID',
+20 warn ERESOLVE     from: {
+20 warn ERESOLVE       name: 'vaul',
+20 warn ERESOLVE       version: '0.9.9',
+20 warn ERESOLVE       location: 'node_modules/vaul',
+20 warn ERESOLVE       isWorkspace: false,
+20 warn ERESOLVE       dependents: [Array]
+20 warn ERESOLVE     }
+20 warn ERESOLVE   },
+20 warn ERESOLVE   dep: {
+20 warn ERESOLVE     name: 'react',
+20 warn ERESOLVE     version: '19.1.0',
+20 warn ERESOLVE     whileInstalling: {
+20 warn ERESOLVE       name: 'my-v0-project',
+20 warn ERESOLVE       version: '0.1.0',
+20 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+20 warn ERESOLVE     },
+20 warn ERESOLVE     location: 'node_modules/react',
+20 warn ERESOLVE     isWorkspace: false,
+20 warn ERESOLVE     dependents: [ [Object] ]
+20 warn ERESOLVE   },
+20 warn ERESOLVE   force: false,
+20 warn ERESOLVE   isMine: true,
+20 warn ERESOLVE   strictPeerDeps: false,
+20 warn ERESOLVE   current: {
+20 warn ERESOLVE     name: 'react',
+20 warn ERESOLVE     version: '19.1.0',
+20 warn ERESOLVE     location: 'node_modules/react',
+20 warn ERESOLVE     isWorkspace: false,
+20 warn ERESOLVE     dependents: [
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+20 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+20 warn ERESOLVE     ]
+20 warn ERESOLVE   }
+20 warn ERESOLVE }
+21 silly fetch manifest react-dom@^16.8 || ^17.0 || ^18.0
+22 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+23 http cache https://registry.npmjs.org/react-dom 430ms (cache hit)
+24 silly packumentCache full:https://registry.npmjs.org/react-dom set size:7127659 disposed:false
+25 silly fetch manifest react@^16.8 || ^17.0 || ^18.0
+26 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+27 http cache https://registry.npmjs.org/react 1737ms (cache hit)
+28 silly packumentCache full:https://registry.npmjs.org/react set size:5633849 disposed:false
+29 verbose stack Error: could not resolve
+29 verbose stack     at PlaceDep.failPeerConflict (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:503:25)
+29 verbose stack     at new PlaceDep (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\place-dep.js:157:21)
+29 verbose stack     at #buildDepStep (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:920:18)
+29 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+29 verbose stack     at async Promise.all (index 1)
+29 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:131:5)
+29 verbose stack     at async Install.exec (C:\Program Files\nodejs\node_modules\npm\lib\commands\install.js:150:5)
+29 verbose stack     at async Npm.exec (C:\Program Files\nodejs\node_modules\npm\lib\npm.js:207:9)
+29 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+30 error code ERESOLVE
+31 error ERESOLVE could not resolve
+32 error
+33 error While resolving: vaul@0.9.9
+33 error Found: react-dom@19.1.0[2m[22m
+33 error [2mnode_modules/react-dom[22m
+33 error   [95mpeer[39m react-dom@">=16.8.0" from @floating-ui/react-dom@2.1.2[2m[22m
+33 error   [2mnode_modules/@floating-ui/react-dom[22m
+33 error     @floating-ui/react-dom@"^2.0.0" from @radix-ui/react-popper@1.2.4[2m[22m
+33 error     [2mnode_modules/@radix-ui/react-popper[22m
+33 error       @radix-ui/react-popper@"1.2.4" from @radix-ui/react-hover-card@1.1.10[2m[22m
+33 error       [2mnode_modules/@radix-ui/react-hover-card[22m
+33 error         @radix-ui/react-hover-card@"^1.1.4" from the root project
+33 error       4 more (@radix-ui/react-menu, @radix-ui/react-popover, ...)
+33 error   [95mpeer[39m react-dom@"^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" from @radix-ui/react-accordion@1.2.7[2m[22m
+33 error   [2mnode_modules/@radix-ui/react-accordion[22m
+33 error     @radix-ui/react-accordion@"^1.2.2" from the root project
+33 error   46 more (@radix-ui/react-alert-dialog, @radix-ui/react-arrow, ...)
+33 error
+33 error Could not resolve dependency:
+33 error [95mpeer[39m react-dom@"^16.8 || ^17.0 || ^18.0" from vaul@0.9.9[2m[22m
+33 error [2mnode_modules/vaul[22m
+33 error   vaul@"^0.9.6" from the root project
+33 error
+33 error Conflicting peer dependency: react-dom@18.3.1[2m[22m
+33 error [2mnode_modules/react-dom[22m
+33 error   [95mpeer[39m react-dom@"^16.8 || ^17.0 || ^18.0" from vaul@0.9.9[2m[22m
+33 error   [2mnode_modules/vaul[22m
+33 error     vaul@"^0.9.6" from the root project
+33 error
+33 error Fix the upstream dependency conflict, or retry
+33 error this command with --force or --legacy-peer-deps
+33 error to accept an incorrect (and potentially broken) dependency resolution.
+34 error
+34 error
+34 error For a full report see:
+34 error D:\ok practice stage 4\%APPDATA%\npm-cache\_logs\2025-04-27T05_27_17_776Z-eresolve-report.txt
+35 silly unfinished npm timer reify 1745731641455
+36 silly unfinished npm timer reify:loadTrees 1745731641456
+37 silly unfinished npm timer idealTree:buildDeps 1745731642640
+38 silly unfinished npm timer idealTree:node_modules/vaul 1745731644009
+39 verbose cwd D:\ok practice stage 4
+40 verbose os Windows_NT 10.0.26100
+41 verbose node v22.14.0
+42 verbose npm  v10.9.2
+43 verbose exit 1
+44 verbose code 1
+45 error A complete log of this run can be found in: D:\ok practice stage 4\%APPDATA%\npm-cache\_logs\2025-04-27T05_27_17_776Z-debug-0.log

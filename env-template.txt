@@ -1,0 +1,19 @@
+# DATABASE_URL
+DATABASE_URL="postgresql://username:password@localhost:5432/testmarketplace?schema=public"
+
+# Authentication
+JWT_SECRET="your-jwt-secret-key-here"
+
+# Razorpay Payment Gateway
+RAZORPAY_KEY_ID="your_razorpay_key_id"
+RAZORPAY_KEY_SECRET="your_razorpay_key_secret"
+NEXT_PUBLIC_RAZORPAY_KEY_ID="your_razorpay_key_id"
+
+# Twilio SMS Service
+TWILIO_ACCOUNT_SID="your_twilio_account_sid"
+TWILIO_AUTH_TOKEN="your_twilio_auth_token"
+TWILIO_PHONE_NUMBER="your_twilio_phone_number"
+
+# Gmail for Email Verification
+GMAIL_USER="your_gmail_address"
+GMAIL_APP_PASSWORD="your_gmail_app_password"

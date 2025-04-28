@@ -1,0 +1,133 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(uuid())
+  name          String?
+  email         String    @unique
+  password      String
+  phone         String?
+  isVerified    Boolean   @default(false)
+  emailVerified Boolean   @default(false)
+  phoneVerified Boolean   @default(false)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Relations
+  purchasedTests PurchasedTest[]
+  testResults    TestResult[]
+  cart           Cart?
+  verificationTokens VerificationToken[]
+}
+
+model VerificationToken {
+  id        String    @id @default(uuid())
+  token     String
+  email     String?
+  phone     String?
+  type      String    // "EMAIL" or "PHONE"
+  expires   DateTime
+  used      Boolean   @default(false)
+  userId    String?
+  user      User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime  @default(now())
+}
+
+model Test {
+  id             Int      @id @default(autoincrement())
+  title          String
+  description    String   @db.Text
+  price          Float
+  duration       Int      // in minutes
+  numQuestions   Int      // Number of questions
+  level          String   // "Beginner", "Intermediate", "Advanced"
+  category       String
+  subcategory    String
+  childCategory  String
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  // Relations
+  questions      Question[]
+  purchasedTests PurchasedTest[]
+  testResults    TestResult[]
+}
+
+model Question {
+  id            Int      @id @default(autoincrement())
+  testId        Int
+  question      String   @db.Text
+  options       Json     // Array of options
+  correctAnswer String
+  topic         String
+  type          String   // "multiple-choice", "true-false", etc.
+  difficulty    String   // "Easy", "Medium", "Hard"
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  // Relations
+  test          Test     @relation(fields: [testId], references: [id], onDelete: Cascade)
+}
+
+model PurchasedTest {
+  id           String   @id @default(uuid())
+  userId       String
+  testId       Int
+  status       String   // "Not Started", "In Progress", "Completed"
+  completed    Boolean  @default(false)
+  purchaseDate DateTime @default(now())
+
+  // Relations
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  test         Test     @relation(fields: [testId], references: [id], onDelete: Cascade)
+}
+
+model TestResult {
+  id                String   @id @default(uuid())
+  userId            String
+  testId            Int
+  score             Int
+  totalQuestions    Int
+  percentage        Float
+  answers           Json     // Array of answers
+  questionDetails   Json?    // Detailed breakdown of answers
+  timeTaken         Int?     // in seconds
+  rank              Int?     // Rank among other test takers
+  totalParticipants Int?     // Total number of test takers
+  completedAt       DateTime @default(now())
+
+  // Relations
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  test              Test     @relation(fields: [testId], references: [id], onDelete: Cascade)
+}
+
+model Cart {
+  id        String   @id @default(uuid())
+  userId    String   @unique
+  items     Json     // Array of test IDs
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Package {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String   @db.Text
+  price       Float
+  testIds     Json     // Array of test IDs
+  discount    Float?   // Percentage discount
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
