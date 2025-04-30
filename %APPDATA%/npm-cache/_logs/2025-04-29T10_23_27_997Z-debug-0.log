@@ -1,0 +1,2614 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\ok practice stage 4\.npmrc
+5 silly config load:file:C:\Users\sugre\.npmrc
+6 silly config load:file:D:\ok practice stage 4\%APPDATA%\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:D:\ok practice stage 4\%APPDATA%\npm-cache\_logs\2025-04-29T10_23_27_997Z-
+10 verbose logfile D:\ok practice stage 4\%APPDATA%\npm-cache\_logs\2025-04-29T10_23_27_997Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest react@18.3.1
+16 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+17 http cache https://registry.npmjs.org/react 266ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/react set size:5641748 disposed:false
+19 silly fetch manifest react-dom@18.3.1
+20 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+21 http cache https://registry.npmjs.org/react-dom 36ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/react-dom set size:7141200 disposed:false
+23 silly placeDep ROOT react@18.3.1 REPLACE for: my-v0-project@0.1.0 want: 18.3.1
+24 warn ERESOLVE overriding peer dependency {
+24 warn ERESOLVE   code: 'ERESOLVE',
+24 warn ERESOLVE   edge: {
+24 warn ERESOLVE     type: 'peer',
+24 warn ERESOLVE     name: 'react',
+24 warn ERESOLVE     spec: '^19.1.0',
+24 warn ERESOLVE     from: {
+24 warn ERESOLVE       name: 'react-dom',
+24 warn ERESOLVE       version: '19.1.0',
+24 warn ERESOLVE       location: 'node_modules/react-dom',
+24 warn ERESOLVE       isWorkspace: false,
+24 warn ERESOLVE       dependents: [Array]
+24 warn ERESOLVE     }
+24 warn ERESOLVE   },
+24 warn ERESOLVE   dep: {
+24 warn ERESOLVE     name: 'react',
+24 warn ERESOLVE     version: '18.3.1',
+24 warn ERESOLVE     whileInstalling: {
+24 warn ERESOLVE       name: 'my-v0-project',
+24 warn ERESOLVE       version: '0.1.0',
+24 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+24 warn ERESOLVE     },
+24 warn ERESOLVE     location: 'node_modules/react',
+24 warn ERESOLVE     isWorkspace: false,
+24 warn ERESOLVE     dependents: [ [Object] ]
+24 warn ERESOLVE   },
+24 warn ERESOLVE   force: false,
+24 warn ERESOLVE   isMine: true,
+24 warn ERESOLVE   strictPeerDeps: false,
+24 warn ERESOLVE   current: {
+24 warn ERESOLVE     name: 'react',
+24 warn ERESOLVE     version: '19.1.0',
+24 warn ERESOLVE     location: 'node_modules/react',
+24 warn ERESOLVE     isWorkspace: false,
+24 warn ERESOLVE     dependents: [
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+24 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+24 warn ERESOLVE     ]
+24 warn ERESOLVE   }
+24 warn ERESOLVE }
+25 warn ERESOLVE overriding peer dependency {
+25 warn ERESOLVE   code: 'ERESOLVE',
+25 warn ERESOLVE   edge: {
+25 warn ERESOLVE     type: 'peer',
+25 warn ERESOLVE     name: 'react',
+25 warn ERESOLVE     spec: '^19.1.0',
+25 warn ERESOLVE     from: {
+25 warn ERESOLVE       name: 'react-dom',
+25 warn ERESOLVE       version: '19.1.0',
+25 warn ERESOLVE       location: 'node_modules/react-dom',
+25 warn ERESOLVE       isWorkspace: false,
+25 warn ERESOLVE       dependents: [Array]
+25 warn ERESOLVE     }
+25 warn ERESOLVE   },
+25 warn ERESOLVE   dep: {
+25 warn ERESOLVE     name: 'react',
+25 warn ERESOLVE     version: '18.3.1',
+25 warn ERESOLVE     whileInstalling: {
+25 warn ERESOLVE       name: 'my-v0-project',
+25 warn ERESOLVE       version: '0.1.0',
+25 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+25 warn ERESOLVE     },
+25 warn ERESOLVE     location: 'node_modules/react',
+25 warn ERESOLVE     isWorkspace: false,
+25 warn ERESOLVE     dependents: [ [Object] ]
+25 warn ERESOLVE   },
+25 warn ERESOLVE   force: false,
+25 warn ERESOLVE   isMine: true,
+25 warn ERESOLVE   strictPeerDeps: false,
+25 warn ERESOLVE   current: {
+25 warn ERESOLVE     name: 'react',
+25 warn ERESOLVE     version: '19.1.0',
+25 warn ERESOLVE     location: 'node_modules/react',
+25 warn ERESOLVE     isWorkspace: false,
+25 warn ERESOLVE     dependents: [
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+25 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+25 warn ERESOLVE     ]
+25 warn ERESOLVE   }
+25 warn ERESOLVE }
+26 warn ERESOLVE overriding peer dependency {
+26 warn ERESOLVE   code: 'ERESOLVE',
+26 warn ERESOLVE   edge: {
+26 warn ERESOLVE     type: 'peer',
+26 warn ERESOLVE     name: 'react',
+26 warn ERESOLVE     spec: '^19.1.0',
+26 warn ERESOLVE     from: {
+26 warn ERESOLVE       name: 'react-dom',
+26 warn ERESOLVE       version: '19.1.0',
+26 warn ERESOLVE       location: 'node_modules/react-dom',
+26 warn ERESOLVE       isWorkspace: false,
+26 warn ERESOLVE       dependents: [Array]
+26 warn ERESOLVE     }
+26 warn ERESOLVE   },
+26 warn ERESOLVE   dep: {
+26 warn ERESOLVE     name: 'react',
+26 warn ERESOLVE     version: '18.3.1',
+26 warn ERESOLVE     whileInstalling: {
+26 warn ERESOLVE       name: 'my-v0-project',
+26 warn ERESOLVE       version: '0.1.0',
+26 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+26 warn ERESOLVE     },
+26 warn ERESOLVE     location: 'node_modules/react',
+26 warn ERESOLVE     isWorkspace: false,
+26 warn ERESOLVE     dependents: [ [Object] ]
+26 warn ERESOLVE   },
+26 warn ERESOLVE   force: false,
+26 warn ERESOLVE   isMine: true,
+26 warn ERESOLVE   strictPeerDeps: false,
+26 warn ERESOLVE   current: {
+26 warn ERESOLVE     name: 'react',
+26 warn ERESOLVE     version: '19.1.0',
+26 warn ERESOLVE     location: 'node_modules/react',
+26 warn ERESOLVE     isWorkspace: false,
+26 warn ERESOLVE     dependents: [
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+26 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+26 warn ERESOLVE     ]
+26 warn ERESOLVE   }
+26 warn ERESOLVE }
+27 warn ERESOLVE overriding peer dependency {
+27 warn ERESOLVE   code: 'ERESOLVE',
+27 warn ERESOLVE   edge: {
+27 warn ERESOLVE     type: 'peer',
+27 warn ERESOLVE     name: 'react',
+27 warn ERESOLVE     spec: '^19.1.0',
+27 warn ERESOLVE     from: {
+27 warn ERESOLVE       name: 'react-dom',
+27 warn ERESOLVE       version: '19.1.0',
+27 warn ERESOLVE       location: 'node_modules/react-dom',
+27 warn ERESOLVE       isWorkspace: false,
+27 warn ERESOLVE       dependents: [Array]
+27 warn ERESOLVE     }
+27 warn ERESOLVE   },
+27 warn ERESOLVE   dep: {
+27 warn ERESOLVE     name: 'react',
+27 warn ERESOLVE     version: '18.3.1',
+27 warn ERESOLVE     whileInstalling: {
+27 warn ERESOLVE       name: 'my-v0-project',
+27 warn ERESOLVE       version: '0.1.0',
+27 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+27 warn ERESOLVE     },
+27 warn ERESOLVE     location: 'node_modules/react',
+27 warn ERESOLVE     isWorkspace: false,
+27 warn ERESOLVE     dependents: [ [Object] ]
+27 warn ERESOLVE   },
+27 warn ERESOLVE   force: false,
+27 warn ERESOLVE   isMine: true,
+27 warn ERESOLVE   strictPeerDeps: false,
+27 warn ERESOLVE   current: {
+27 warn ERESOLVE     name: 'react',
+27 warn ERESOLVE     version: '19.1.0',
+27 warn ERESOLVE     location: 'node_modules/react',
+27 warn ERESOLVE     isWorkspace: false,
+27 warn ERESOLVE     dependents: [
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+27 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+27 warn ERESOLVE     ]
+27 warn ERESOLVE   }
+27 warn ERESOLVE }
+28 warn ERESOLVE overriding peer dependency {
+28 warn ERESOLVE   code: 'ERESOLVE',
+28 warn ERESOLVE   edge: {
+28 warn ERESOLVE     type: 'peer',
+28 warn ERESOLVE     name: 'react',
+28 warn ERESOLVE     spec: '^19.1.0',
+28 warn ERESOLVE     from: {
+28 warn ERESOLVE       name: 'react-dom',
+28 warn ERESOLVE       version: '19.1.0',
+28 warn ERESOLVE       location: 'node_modules/react-dom',
+28 warn ERESOLVE       isWorkspace: false,
+28 warn ERESOLVE       dependents: [Array]
+28 warn ERESOLVE     }
+28 warn ERESOLVE   },
+28 warn ERESOLVE   dep: {
+28 warn ERESOLVE     name: 'react',
+28 warn ERESOLVE     version: '18.3.1',
+28 warn ERESOLVE     whileInstalling: {
+28 warn ERESOLVE       name: 'my-v0-project',
+28 warn ERESOLVE       version: '0.1.0',
+28 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+28 warn ERESOLVE     },
+28 warn ERESOLVE     location: 'node_modules/react',
+28 warn ERESOLVE     isWorkspace: false,
+28 warn ERESOLVE     dependents: [ [Object] ]
+28 warn ERESOLVE   },
+28 warn ERESOLVE   force: false,
+28 warn ERESOLVE   isMine: true,
+28 warn ERESOLVE   strictPeerDeps: false,
+28 warn ERESOLVE   current: {
+28 warn ERESOLVE     name: 'react',
+28 warn ERESOLVE     version: '19.1.0',
+28 warn ERESOLVE     location: 'node_modules/react',
+28 warn ERESOLVE     isWorkspace: false,
+28 warn ERESOLVE     dependents: [
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+28 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+28 warn ERESOLVE     ]
+28 warn ERESOLVE   }
+28 warn ERESOLVE }
+29 warn ERESOLVE overriding peer dependency {
+29 warn ERESOLVE   code: 'ERESOLVE',
+29 warn ERESOLVE   edge: {
+29 warn ERESOLVE     type: 'peer',
+29 warn ERESOLVE     name: 'react',
+29 warn ERESOLVE     spec: '^19.1.0',
+29 warn ERESOLVE     from: {
+29 warn ERESOLVE       name: 'react-dom',
+29 warn ERESOLVE       version: '19.1.0',
+29 warn ERESOLVE       location: 'node_modules/react-dom',
+29 warn ERESOLVE       isWorkspace: false,
+29 warn ERESOLVE       dependents: [Array]
+29 warn ERESOLVE     }
+29 warn ERESOLVE   },
+29 warn ERESOLVE   dep: {
+29 warn ERESOLVE     name: 'react',
+29 warn ERESOLVE     version: '18.3.1',
+29 warn ERESOLVE     whileInstalling: {
+29 warn ERESOLVE       name: 'my-v0-project',
+29 warn ERESOLVE       version: '0.1.0',
+29 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+29 warn ERESOLVE     },
+29 warn ERESOLVE     location: 'node_modules/react',
+29 warn ERESOLVE     isWorkspace: false,
+29 warn ERESOLVE     dependents: [ [Object] ]
+29 warn ERESOLVE   },
+29 warn ERESOLVE   force: false,
+29 warn ERESOLVE   isMine: true,
+29 warn ERESOLVE   strictPeerDeps: false,
+29 warn ERESOLVE   current: {
+29 warn ERESOLVE     name: 'react',
+29 warn ERESOLVE     version: '19.1.0',
+29 warn ERESOLVE     location: 'node_modules/react',
+29 warn ERESOLVE     isWorkspace: false,
+29 warn ERESOLVE     dependents: [
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+29 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+29 warn ERESOLVE     ]
+29 warn ERESOLVE   }
+29 warn ERESOLVE }
+30 warn ERESOLVE overriding peer dependency {
+30 warn ERESOLVE   code: 'ERESOLVE',
+30 warn ERESOLVE   edge: {
+30 warn ERESOLVE     type: 'peer',
+30 warn ERESOLVE     name: 'react',
+30 warn ERESOLVE     spec: '^19.1.0',
+30 warn ERESOLVE     from: {
+30 warn ERESOLVE       name: 'react-dom',
+30 warn ERESOLVE       version: '19.1.0',
+30 warn ERESOLVE       location: 'node_modules/react-dom',
+30 warn ERESOLVE       isWorkspace: false,
+30 warn ERESOLVE       dependents: [Array]
+30 warn ERESOLVE     }
+30 warn ERESOLVE   },
+30 warn ERESOLVE   dep: {
+30 warn ERESOLVE     name: 'react',
+30 warn ERESOLVE     version: '18.3.1',
+30 warn ERESOLVE     whileInstalling: {
+30 warn ERESOLVE       name: 'my-v0-project',
+30 warn ERESOLVE       version: '0.1.0',
+30 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+30 warn ERESOLVE     },
+30 warn ERESOLVE     location: 'node_modules/react',
+30 warn ERESOLVE     isWorkspace: false,
+30 warn ERESOLVE     dependents: [ [Object] ]
+30 warn ERESOLVE   },
+30 warn ERESOLVE   force: false,
+30 warn ERESOLVE   isMine: true,
+30 warn ERESOLVE   strictPeerDeps: false,
+30 warn ERESOLVE   current: {
+30 warn ERESOLVE     name: 'react',
+30 warn ERESOLVE     version: '19.1.0',
+30 warn ERESOLVE     location: 'node_modules/react',
+30 warn ERESOLVE     isWorkspace: false,
+30 warn ERESOLVE     dependents: [
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+30 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+30 warn ERESOLVE     ]
+30 warn ERESOLVE   }
+30 warn ERESOLVE }
+31 warn ERESOLVE overriding peer dependency {
+31 warn ERESOLVE   code: 'ERESOLVE',
+31 warn ERESOLVE   edge: {
+31 warn ERESOLVE     type: 'peer',
+31 warn ERESOLVE     name: 'react',
+31 warn ERESOLVE     spec: '^19.1.0',
+31 warn ERESOLVE     from: {
+31 warn ERESOLVE       name: 'react-dom',
+31 warn ERESOLVE       version: '19.1.0',
+31 warn ERESOLVE       location: 'node_modules/react-dom',
+31 warn ERESOLVE       isWorkspace: false,
+31 warn ERESOLVE       dependents: [Array]
+31 warn ERESOLVE     }
+31 warn ERESOLVE   },
+31 warn ERESOLVE   dep: {
+31 warn ERESOLVE     name: 'react',
+31 warn ERESOLVE     version: '18.3.1',
+31 warn ERESOLVE     whileInstalling: {
+31 warn ERESOLVE       name: 'my-v0-project',
+31 warn ERESOLVE       version: '0.1.0',
+31 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+31 warn ERESOLVE     },
+31 warn ERESOLVE     location: 'node_modules/react',
+31 warn ERESOLVE     isWorkspace: false,
+31 warn ERESOLVE     dependents: [ [Object] ]
+31 warn ERESOLVE   },
+31 warn ERESOLVE   force: false,
+31 warn ERESOLVE   isMine: true,
+31 warn ERESOLVE   strictPeerDeps: false,
+31 warn ERESOLVE   current: {
+31 warn ERESOLVE     name: 'react',
+31 warn ERESOLVE     version: '19.1.0',
+31 warn ERESOLVE     location: 'node_modules/react',
+31 warn ERESOLVE     isWorkspace: false,
+31 warn ERESOLVE     dependents: [
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+31 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+31 warn ERESOLVE     ]
+31 warn ERESOLVE   }
+31 warn ERESOLVE }
+32 warn ERESOLVE overriding peer dependency {
+32 warn ERESOLVE   code: 'ERESOLVE',
+32 warn ERESOLVE   edge: {
+32 warn ERESOLVE     type: 'peer',
+32 warn ERESOLVE     name: 'react',
+32 warn ERESOLVE     spec: '^19.1.0',
+32 warn ERESOLVE     from: {
+32 warn ERESOLVE       name: 'react-dom',
+32 warn ERESOLVE       version: '19.1.0',
+32 warn ERESOLVE       location: 'node_modules/react-dom',
+32 warn ERESOLVE       isWorkspace: false,
+32 warn ERESOLVE       dependents: [Array]
+32 warn ERESOLVE     }
+32 warn ERESOLVE   },
+32 warn ERESOLVE   dep: {
+32 warn ERESOLVE     name: 'react',
+32 warn ERESOLVE     version: '18.3.1',
+32 warn ERESOLVE     whileInstalling: {
+32 warn ERESOLVE       name: 'my-v0-project',
+32 warn ERESOLVE       version: '0.1.0',
+32 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+32 warn ERESOLVE     },
+32 warn ERESOLVE     location: 'node_modules/react',
+32 warn ERESOLVE     isWorkspace: false,
+32 warn ERESOLVE     dependents: [ [Object] ]
+32 warn ERESOLVE   },
+32 warn ERESOLVE   force: false,
+32 warn ERESOLVE   isMine: true,
+32 warn ERESOLVE   strictPeerDeps: false,
+32 warn ERESOLVE   current: {
+32 warn ERESOLVE     name: 'react',
+32 warn ERESOLVE     version: '19.1.0',
+32 warn ERESOLVE     location: 'node_modules/react',
+32 warn ERESOLVE     isWorkspace: false,
+32 warn ERESOLVE     dependents: [
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+32 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+32 warn ERESOLVE     ]
+32 warn ERESOLVE   }
+32 warn ERESOLVE }
+33 warn ERESOLVE overriding peer dependency {
+33 warn ERESOLVE   code: 'ERESOLVE',
+33 warn ERESOLVE   edge: {
+33 warn ERESOLVE     type: 'peer',
+33 warn ERESOLVE     name: 'react',
+33 warn ERESOLVE     spec: '^19.1.0',
+33 warn ERESOLVE     from: {
+33 warn ERESOLVE       name: 'react-dom',
+33 warn ERESOLVE       version: '19.1.0',
+33 warn ERESOLVE       location: 'node_modules/react-dom',
+33 warn ERESOLVE       isWorkspace: false,
+33 warn ERESOLVE       dependents: [Array]
+33 warn ERESOLVE     }
+33 warn ERESOLVE   },
+33 warn ERESOLVE   dep: {
+33 warn ERESOLVE     name: 'react',
+33 warn ERESOLVE     version: '18.3.1',
+33 warn ERESOLVE     whileInstalling: {
+33 warn ERESOLVE       name: 'my-v0-project',
+33 warn ERESOLVE       version: '0.1.0',
+33 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+33 warn ERESOLVE     },
+33 warn ERESOLVE     location: 'node_modules/react',
+33 warn ERESOLVE     isWorkspace: false,
+33 warn ERESOLVE     dependents: [ [Object] ]
+33 warn ERESOLVE   },
+33 warn ERESOLVE   force: false,
+33 warn ERESOLVE   isMine: true,
+33 warn ERESOLVE   strictPeerDeps: false,
+33 warn ERESOLVE   current: {
+33 warn ERESOLVE     name: 'react',
+33 warn ERESOLVE     version: '19.1.0',
+33 warn ERESOLVE     location: 'node_modules/react',
+33 warn ERESOLVE     isWorkspace: false,
+33 warn ERESOLVE     dependents: [
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+33 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+33 warn ERESOLVE     ]
+33 warn ERESOLVE   }
+33 warn ERESOLVE }
+34 warn ERESOLVE overriding peer dependency {
+34 warn ERESOLVE   code: 'ERESOLVE',
+34 warn ERESOLVE   edge: {
+34 warn ERESOLVE     type: 'peer',
+34 warn ERESOLVE     name: 'react',
+34 warn ERESOLVE     spec: '^19.1.0',
+34 warn ERESOLVE     from: {
+34 warn ERESOLVE       name: 'react-dom',
+34 warn ERESOLVE       version: '19.1.0',
+34 warn ERESOLVE       location: 'node_modules/react-dom',
+34 warn ERESOLVE       isWorkspace: false,
+34 warn ERESOLVE       dependents: [Array]
+34 warn ERESOLVE     }
+34 warn ERESOLVE   },
+34 warn ERESOLVE   dep: {
+34 warn ERESOLVE     name: 'react',
+34 warn ERESOLVE     version: '18.3.1',
+34 warn ERESOLVE     whileInstalling: {
+34 warn ERESOLVE       name: 'my-v0-project',
+34 warn ERESOLVE       version: '0.1.0',
+34 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+34 warn ERESOLVE     },
+34 warn ERESOLVE     location: 'node_modules/react',
+34 warn ERESOLVE     isWorkspace: false,
+34 warn ERESOLVE     dependents: [ [Object] ]
+34 warn ERESOLVE   },
+34 warn ERESOLVE   force: false,
+34 warn ERESOLVE   isMine: true,
+34 warn ERESOLVE   strictPeerDeps: false,
+34 warn ERESOLVE   current: {
+34 warn ERESOLVE     name: 'react',
+34 warn ERESOLVE     version: '19.1.0',
+34 warn ERESOLVE     location: 'node_modules/react',
+34 warn ERESOLVE     isWorkspace: false,
+34 warn ERESOLVE     dependents: [
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+34 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+34 warn ERESOLVE     ]
+34 warn ERESOLVE   }
+34 warn ERESOLVE }
+35 warn ERESOLVE overriding peer dependency {
+35 warn ERESOLVE   code: 'ERESOLVE',
+35 warn ERESOLVE   edge: {
+35 warn ERESOLVE     type: 'peer',
+35 warn ERESOLVE     name: 'react',
+35 warn ERESOLVE     spec: '^19.1.0',
+35 warn ERESOLVE     from: {
+35 warn ERESOLVE       name: 'react-dom',
+35 warn ERESOLVE       version: '19.1.0',
+35 warn ERESOLVE       location: 'node_modules/react-dom',
+35 warn ERESOLVE       isWorkspace: false,
+35 warn ERESOLVE       dependents: [Array]
+35 warn ERESOLVE     }
+35 warn ERESOLVE   },
+35 warn ERESOLVE   dep: {
+35 warn ERESOLVE     name: 'react',
+35 warn ERESOLVE     version: '18.3.1',
+35 warn ERESOLVE     whileInstalling: {
+35 warn ERESOLVE       name: 'my-v0-project',
+35 warn ERESOLVE       version: '0.1.0',
+35 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+35 warn ERESOLVE     },
+35 warn ERESOLVE     location: 'node_modules/react',
+35 warn ERESOLVE     isWorkspace: false,
+35 warn ERESOLVE     dependents: [ [Object] ]
+35 warn ERESOLVE   },
+35 warn ERESOLVE   force: false,
+35 warn ERESOLVE   isMine: true,
+35 warn ERESOLVE   strictPeerDeps: false,
+35 warn ERESOLVE   current: {
+35 warn ERESOLVE     name: 'react',
+35 warn ERESOLVE     version: '19.1.0',
+35 warn ERESOLVE     location: 'node_modules/react',
+35 warn ERESOLVE     isWorkspace: false,
+35 warn ERESOLVE     dependents: [
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+35 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+35 warn ERESOLVE     ]
+35 warn ERESOLVE   }
+35 warn ERESOLVE }
+36 warn ERESOLVE overriding peer dependency {
+36 warn ERESOLVE   code: 'ERESOLVE',
+36 warn ERESOLVE   edge: {
+36 warn ERESOLVE     type: 'peer',
+36 warn ERESOLVE     name: 'react',
+36 warn ERESOLVE     spec: '^19.1.0',
+36 warn ERESOLVE     from: {
+36 warn ERESOLVE       name: 'react-dom',
+36 warn ERESOLVE       version: '19.1.0',
+36 warn ERESOLVE       location: 'node_modules/react-dom',
+36 warn ERESOLVE       isWorkspace: false,
+36 warn ERESOLVE       dependents: [Array]
+36 warn ERESOLVE     }
+36 warn ERESOLVE   },
+36 warn ERESOLVE   dep: {
+36 warn ERESOLVE     name: 'react',
+36 warn ERESOLVE     version: '18.3.1',
+36 warn ERESOLVE     whileInstalling: {
+36 warn ERESOLVE       name: 'my-v0-project',
+36 warn ERESOLVE       version: '0.1.0',
+36 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+36 warn ERESOLVE     },
+36 warn ERESOLVE     location: 'node_modules/react',
+36 warn ERESOLVE     isWorkspace: false,
+36 warn ERESOLVE     dependents: [ [Object] ]
+36 warn ERESOLVE   },
+36 warn ERESOLVE   force: false,
+36 warn ERESOLVE   isMine: true,
+36 warn ERESOLVE   strictPeerDeps: false,
+36 warn ERESOLVE   current: {
+36 warn ERESOLVE     name: 'react',
+36 warn ERESOLVE     version: '19.1.0',
+36 warn ERESOLVE     location: 'node_modules/react',
+36 warn ERESOLVE     isWorkspace: false,
+36 warn ERESOLVE     dependents: [
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+36 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+36 warn ERESOLVE     ]
+36 warn ERESOLVE   }
+36 warn ERESOLVE }
+37 warn ERESOLVE overriding peer dependency {
+37 warn ERESOLVE   code: 'ERESOLVE',
+37 warn ERESOLVE   edge: {
+37 warn ERESOLVE     type: 'peer',
+37 warn ERESOLVE     name: 'react',
+37 warn ERESOLVE     spec: '^19.1.0',
+37 warn ERESOLVE     from: {
+37 warn ERESOLVE       name: 'react-dom',
+37 warn ERESOLVE       version: '19.1.0',
+37 warn ERESOLVE       location: 'node_modules/react-dom',
+37 warn ERESOLVE       isWorkspace: false,
+37 warn ERESOLVE       dependents: [Array]
+37 warn ERESOLVE     }
+37 warn ERESOLVE   },
+37 warn ERESOLVE   dep: {
+37 warn ERESOLVE     name: 'react',
+37 warn ERESOLVE     version: '18.3.1',
+37 warn ERESOLVE     whileInstalling: {
+37 warn ERESOLVE       name: 'my-v0-project',
+37 warn ERESOLVE       version: '0.1.0',
+37 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+37 warn ERESOLVE     },
+37 warn ERESOLVE     location: 'node_modules/react',
+37 warn ERESOLVE     isWorkspace: false,
+37 warn ERESOLVE     dependents: [ [Object] ]
+37 warn ERESOLVE   },
+37 warn ERESOLVE   force: false,
+37 warn ERESOLVE   isMine: true,
+37 warn ERESOLVE   strictPeerDeps: false,
+37 warn ERESOLVE   current: {
+37 warn ERESOLVE     name: 'react',
+37 warn ERESOLVE     version: '19.1.0',
+37 warn ERESOLVE     location: 'node_modules/react',
+37 warn ERESOLVE     isWorkspace: false,
+37 warn ERESOLVE     dependents: [
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+37 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+37 warn ERESOLVE     ]
+37 warn ERESOLVE   }
+37 warn ERESOLVE }
+38 warn ERESOLVE overriding peer dependency {
+38 warn ERESOLVE   code: 'ERESOLVE',
+38 warn ERESOLVE   edge: {
+38 warn ERESOLVE     type: 'peer',
+38 warn ERESOLVE     name: 'react',
+38 warn ERESOLVE     spec: '^19.1.0',
+38 warn ERESOLVE     from: {
+38 warn ERESOLVE       name: 'react-dom',
+38 warn ERESOLVE       version: '19.1.0',
+38 warn ERESOLVE       location: 'node_modules/react-dom',
+38 warn ERESOLVE       isWorkspace: false,
+38 warn ERESOLVE       dependents: [Array]
+38 warn ERESOLVE     }
+38 warn ERESOLVE   },
+38 warn ERESOLVE   dep: {
+38 warn ERESOLVE     name: 'react',
+38 warn ERESOLVE     version: '18.3.1',
+38 warn ERESOLVE     whileInstalling: {
+38 warn ERESOLVE       name: 'my-v0-project',
+38 warn ERESOLVE       version: '0.1.0',
+38 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+38 warn ERESOLVE     },
+38 warn ERESOLVE     location: 'node_modules/react',
+38 warn ERESOLVE     isWorkspace: false,
+38 warn ERESOLVE     dependents: [ [Object] ]
+38 warn ERESOLVE   },
+38 warn ERESOLVE   force: false,
+38 warn ERESOLVE   isMine: true,
+38 warn ERESOLVE   strictPeerDeps: false,
+38 warn ERESOLVE   current: {
+38 warn ERESOLVE     name: 'react',
+38 warn ERESOLVE     version: '19.1.0',
+38 warn ERESOLVE     location: 'node_modules/react',
+38 warn ERESOLVE     isWorkspace: false,
+38 warn ERESOLVE     dependents: [
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+38 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+38 warn ERESOLVE     ]
+38 warn ERESOLVE   }
+38 warn ERESOLVE }
+39 warn ERESOLVE overriding peer dependency {
+39 warn ERESOLVE   code: 'ERESOLVE',
+39 warn ERESOLVE   edge: {
+39 warn ERESOLVE     type: 'peer',
+39 warn ERESOLVE     name: 'react',
+39 warn ERESOLVE     spec: '^19.1.0',
+39 warn ERESOLVE     from: {
+39 warn ERESOLVE       name: 'react-dom',
+39 warn ERESOLVE       version: '19.1.0',
+39 warn ERESOLVE       location: 'node_modules/react-dom',
+39 warn ERESOLVE       isWorkspace: false,
+39 warn ERESOLVE       dependents: [Array]
+39 warn ERESOLVE     }
+39 warn ERESOLVE   },
+39 warn ERESOLVE   dep: {
+39 warn ERESOLVE     name: 'react',
+39 warn ERESOLVE     version: '18.3.1',
+39 warn ERESOLVE     whileInstalling: {
+39 warn ERESOLVE       name: 'my-v0-project',
+39 warn ERESOLVE       version: '0.1.0',
+39 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+39 warn ERESOLVE     },
+39 warn ERESOLVE     location: 'node_modules/react',
+39 warn ERESOLVE     isWorkspace: false,
+39 warn ERESOLVE     dependents: [ [Object] ]
+39 warn ERESOLVE   },
+39 warn ERESOLVE   force: false,
+39 warn ERESOLVE   isMine: true,
+39 warn ERESOLVE   strictPeerDeps: false,
+39 warn ERESOLVE   current: {
+39 warn ERESOLVE     name: 'react',
+39 warn ERESOLVE     version: '19.1.0',
+39 warn ERESOLVE     location: 'node_modules/react',
+39 warn ERESOLVE     isWorkspace: false,
+39 warn ERESOLVE     dependents: [
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+39 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+39 warn ERESOLVE     ]
+39 warn ERESOLVE   }
+39 warn ERESOLVE }
+40 warn ERESOLVE overriding peer dependency {
+40 warn ERESOLVE   code: 'ERESOLVE',
+40 warn ERESOLVE   edge: {
+40 warn ERESOLVE     type: 'peer',
+40 warn ERESOLVE     name: 'react',
+40 warn ERESOLVE     spec: '^19.1.0',
+40 warn ERESOLVE     from: {
+40 warn ERESOLVE       name: 'react-dom',
+40 warn ERESOLVE       version: '19.1.0',
+40 warn ERESOLVE       location: 'node_modules/react-dom',
+40 warn ERESOLVE       isWorkspace: false,
+40 warn ERESOLVE       dependents: [Array]
+40 warn ERESOLVE     }
+40 warn ERESOLVE   },
+40 warn ERESOLVE   dep: {
+40 warn ERESOLVE     name: 'react',
+40 warn ERESOLVE     version: '18.3.1',
+40 warn ERESOLVE     whileInstalling: {
+40 warn ERESOLVE       name: 'my-v0-project',
+40 warn ERESOLVE       version: '0.1.0',
+40 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+40 warn ERESOLVE     },
+40 warn ERESOLVE     location: 'node_modules/react',
+40 warn ERESOLVE     isWorkspace: false,
+40 warn ERESOLVE     dependents: [ [Object] ]
+40 warn ERESOLVE   },
+40 warn ERESOLVE   force: false,
+40 warn ERESOLVE   isMine: true,
+40 warn ERESOLVE   strictPeerDeps: false,
+40 warn ERESOLVE   current: {
+40 warn ERESOLVE     name: 'react',
+40 warn ERESOLVE     version: '19.1.0',
+40 warn ERESOLVE     location: 'node_modules/react',
+40 warn ERESOLVE     isWorkspace: false,
+40 warn ERESOLVE     dependents: [
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+40 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+40 warn ERESOLVE     ]
+40 warn ERESOLVE   }
+40 warn ERESOLVE }
+41 warn ERESOLVE overriding peer dependency {
+41 warn ERESOLVE   code: 'ERESOLVE',
+41 warn ERESOLVE   edge: {
+41 warn ERESOLVE     type: 'peer',
+41 warn ERESOLVE     name: 'react',
+41 warn ERESOLVE     spec: '^19.1.0',
+41 warn ERESOLVE     from: {
+41 warn ERESOLVE       name: 'react-dom',
+41 warn ERESOLVE       version: '19.1.0',
+41 warn ERESOLVE       location: 'node_modules/react-dom',
+41 warn ERESOLVE       isWorkspace: false,
+41 warn ERESOLVE       dependents: [Array]
+41 warn ERESOLVE     }
+41 warn ERESOLVE   },
+41 warn ERESOLVE   dep: {
+41 warn ERESOLVE     name: 'react',
+41 warn ERESOLVE     version: '18.3.1',
+41 warn ERESOLVE     whileInstalling: {
+41 warn ERESOLVE       name: 'my-v0-project',
+41 warn ERESOLVE       version: '0.1.0',
+41 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+41 warn ERESOLVE     },
+41 warn ERESOLVE     location: 'node_modules/react',
+41 warn ERESOLVE     isWorkspace: false,
+41 warn ERESOLVE     dependents: [ [Object] ]
+41 warn ERESOLVE   },
+41 warn ERESOLVE   force: false,
+41 warn ERESOLVE   isMine: true,
+41 warn ERESOLVE   strictPeerDeps: false,
+41 warn ERESOLVE   current: {
+41 warn ERESOLVE     name: 'react',
+41 warn ERESOLVE     version: '19.1.0',
+41 warn ERESOLVE     location: 'node_modules/react',
+41 warn ERESOLVE     isWorkspace: false,
+41 warn ERESOLVE     dependents: [
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+41 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+41 warn ERESOLVE     ]
+41 warn ERESOLVE   }
+41 warn ERESOLVE }
+42 warn ERESOLVE overriding peer dependency {
+42 warn ERESOLVE   code: 'ERESOLVE',
+42 warn ERESOLVE   edge: {
+42 warn ERESOLVE     type: 'peer',
+42 warn ERESOLVE     name: 'react',
+42 warn ERESOLVE     spec: '^19.1.0',
+42 warn ERESOLVE     from: {
+42 warn ERESOLVE       name: 'react-dom',
+42 warn ERESOLVE       version: '19.1.0',
+42 warn ERESOLVE       location: 'node_modules/react-dom',
+42 warn ERESOLVE       isWorkspace: false,
+42 warn ERESOLVE       dependents: [Array]
+42 warn ERESOLVE     }
+42 warn ERESOLVE   },
+42 warn ERESOLVE   dep: {
+42 warn ERESOLVE     name: 'react',
+42 warn ERESOLVE     version: '18.3.1',
+42 warn ERESOLVE     whileInstalling: {
+42 warn ERESOLVE       name: 'my-v0-project',
+42 warn ERESOLVE       version: '0.1.0',
+42 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+42 warn ERESOLVE     },
+42 warn ERESOLVE     location: 'node_modules/react',
+42 warn ERESOLVE     isWorkspace: false,
+42 warn ERESOLVE     dependents: [ [Object] ]
+42 warn ERESOLVE   },
+42 warn ERESOLVE   force: false,
+42 warn ERESOLVE   isMine: true,
+42 warn ERESOLVE   strictPeerDeps: false,
+42 warn ERESOLVE   current: {
+42 warn ERESOLVE     name: 'react',
+42 warn ERESOLVE     version: '19.1.0',
+42 warn ERESOLVE     location: 'node_modules/react',
+42 warn ERESOLVE     isWorkspace: false,
+42 warn ERESOLVE     dependents: [
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+42 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+42 warn ERESOLVE     ]
+42 warn ERESOLVE   }
+42 warn ERESOLVE }
+43 warn ERESOLVE overriding peer dependency {
+43 warn ERESOLVE   code: 'ERESOLVE',
+43 warn ERESOLVE   edge: {
+43 warn ERESOLVE     type: 'peer',
+43 warn ERESOLVE     name: 'react',
+43 warn ERESOLVE     spec: '^19.1.0',
+43 warn ERESOLVE     from: {
+43 warn ERESOLVE       name: 'react-dom',
+43 warn ERESOLVE       version: '19.1.0',
+43 warn ERESOLVE       location: 'node_modules/react-dom',
+43 warn ERESOLVE       isWorkspace: false,
+43 warn ERESOLVE       dependents: [Array]
+43 warn ERESOLVE     }
+43 warn ERESOLVE   },
+43 warn ERESOLVE   dep: {
+43 warn ERESOLVE     name: 'react',
+43 warn ERESOLVE     version: '18.3.1',
+43 warn ERESOLVE     whileInstalling: {
+43 warn ERESOLVE       name: 'my-v0-project',
+43 warn ERESOLVE       version: '0.1.0',
+43 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+43 warn ERESOLVE     },
+43 warn ERESOLVE     location: 'node_modules/react',
+43 warn ERESOLVE     isWorkspace: false,
+43 warn ERESOLVE     dependents: [ [Object] ]
+43 warn ERESOLVE   },
+43 warn ERESOLVE   force: false,
+43 warn ERESOLVE   isMine: true,
+43 warn ERESOLVE   strictPeerDeps: false,
+43 warn ERESOLVE   current: {
+43 warn ERESOLVE     name: 'react',
+43 warn ERESOLVE     version: '19.1.0',
+43 warn ERESOLVE     location: 'node_modules/react',
+43 warn ERESOLVE     isWorkspace: false,
+43 warn ERESOLVE     dependents: [
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+43 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+43 warn ERESOLVE     ]
+43 warn ERESOLVE   }
+43 warn ERESOLVE }
+44 warn ERESOLVE overriding peer dependency {
+44 warn ERESOLVE   code: 'ERESOLVE',
+44 warn ERESOLVE   edge: {
+44 warn ERESOLVE     type: 'peer',
+44 warn ERESOLVE     name: 'react',
+44 warn ERESOLVE     spec: '^19.1.0',
+44 warn ERESOLVE     from: {
+44 warn ERESOLVE       name: 'react-dom',
+44 warn ERESOLVE       version: '19.1.0',
+44 warn ERESOLVE       location: 'node_modules/react-dom',
+44 warn ERESOLVE       isWorkspace: false,
+44 warn ERESOLVE       dependents: [Array]
+44 warn ERESOLVE     }
+44 warn ERESOLVE   },
+44 warn ERESOLVE   dep: {
+44 warn ERESOLVE     name: 'react',
+44 warn ERESOLVE     version: '18.3.1',
+44 warn ERESOLVE     whileInstalling: {
+44 warn ERESOLVE       name: 'my-v0-project',
+44 warn ERESOLVE       version: '0.1.0',
+44 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+44 warn ERESOLVE     },
+44 warn ERESOLVE     location: 'node_modules/react',
+44 warn ERESOLVE     isWorkspace: false,
+44 warn ERESOLVE     dependents: [ [Object] ]
+44 warn ERESOLVE   },
+44 warn ERESOLVE   force: false,
+44 warn ERESOLVE   isMine: true,
+44 warn ERESOLVE   strictPeerDeps: false,
+44 warn ERESOLVE   current: {
+44 warn ERESOLVE     name: 'react',
+44 warn ERESOLVE     version: '19.1.0',
+44 warn ERESOLVE     location: 'node_modules/react',
+44 warn ERESOLVE     isWorkspace: false,
+44 warn ERESOLVE     dependents: [
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+44 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+44 warn ERESOLVE     ]
+44 warn ERESOLVE   }
+44 warn ERESOLVE }
+45 warn ERESOLVE overriding peer dependency {
+45 warn ERESOLVE   code: 'ERESOLVE',
+45 warn ERESOLVE   edge: {
+45 warn ERESOLVE     type: 'peer',
+45 warn ERESOLVE     name: 'react',
+45 warn ERESOLVE     spec: '^19.1.0',
+45 warn ERESOLVE     from: {
+45 warn ERESOLVE       name: 'react-dom',
+45 warn ERESOLVE       version: '19.1.0',
+45 warn ERESOLVE       location: 'node_modules/react-dom',
+45 warn ERESOLVE       isWorkspace: false,
+45 warn ERESOLVE       dependents: [Array]
+45 warn ERESOLVE     }
+45 warn ERESOLVE   },
+45 warn ERESOLVE   dep: {
+45 warn ERESOLVE     name: 'react',
+45 warn ERESOLVE     version: '18.3.1',
+45 warn ERESOLVE     whileInstalling: {
+45 warn ERESOLVE       name: 'my-v0-project',
+45 warn ERESOLVE       version: '0.1.0',
+45 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+45 warn ERESOLVE     },
+45 warn ERESOLVE     location: 'node_modules/react',
+45 warn ERESOLVE     isWorkspace: false,
+45 warn ERESOLVE     dependents: [ [Object] ]
+45 warn ERESOLVE   },
+45 warn ERESOLVE   force: false,
+45 warn ERESOLVE   isMine: true,
+45 warn ERESOLVE   strictPeerDeps: false,
+45 warn ERESOLVE   current: {
+45 warn ERESOLVE     name: 'react',
+45 warn ERESOLVE     version: '19.1.0',
+45 warn ERESOLVE     location: 'node_modules/react',
+45 warn ERESOLVE     isWorkspace: false,
+45 warn ERESOLVE     dependents: [
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+45 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+45 warn ERESOLVE     ]
+45 warn ERESOLVE   }
+45 warn ERESOLVE }
+46 warn ERESOLVE overriding peer dependency {
+46 warn ERESOLVE   code: 'ERESOLVE',
+46 warn ERESOLVE   edge: {
+46 warn ERESOLVE     type: 'peer',
+46 warn ERESOLVE     name: 'react',
+46 warn ERESOLVE     spec: '^19.1.0',
+46 warn ERESOLVE     from: {
+46 warn ERESOLVE       name: 'react-dom',
+46 warn ERESOLVE       version: '19.1.0',
+46 warn ERESOLVE       location: 'node_modules/react-dom',
+46 warn ERESOLVE       isWorkspace: false,
+46 warn ERESOLVE       dependents: [Array]
+46 warn ERESOLVE     }
+46 warn ERESOLVE   },
+46 warn ERESOLVE   dep: {
+46 warn ERESOLVE     name: 'react',
+46 warn ERESOLVE     version: '18.3.1',
+46 warn ERESOLVE     whileInstalling: {
+46 warn ERESOLVE       name: 'my-v0-project',
+46 warn ERESOLVE       version: '0.1.0',
+46 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+46 warn ERESOLVE     },
+46 warn ERESOLVE     location: 'node_modules/react',
+46 warn ERESOLVE     isWorkspace: false,
+46 warn ERESOLVE     dependents: [ [Object] ]
+46 warn ERESOLVE   },
+46 warn ERESOLVE   force: false,
+46 warn ERESOLVE   isMine: true,
+46 warn ERESOLVE   strictPeerDeps: false,
+46 warn ERESOLVE   current: {
+46 warn ERESOLVE     name: 'react',
+46 warn ERESOLVE     version: '19.1.0',
+46 warn ERESOLVE     location: 'node_modules/react',
+46 warn ERESOLVE     isWorkspace: false,
+46 warn ERESOLVE     dependents: [
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+46 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+46 warn ERESOLVE     ]
+46 warn ERESOLVE   }
+46 warn ERESOLVE }
+47 warn ERESOLVE overriding peer dependency {
+47 warn ERESOLVE   code: 'ERESOLVE',
+47 warn ERESOLVE   edge: {
+47 warn ERESOLVE     type: 'peer',
+47 warn ERESOLVE     name: 'react',
+47 warn ERESOLVE     spec: '^19.1.0',
+47 warn ERESOLVE     from: {
+47 warn ERESOLVE       name: 'react-dom',
+47 warn ERESOLVE       version: '19.1.0',
+47 warn ERESOLVE       location: 'node_modules/react-dom',
+47 warn ERESOLVE       isWorkspace: false,
+47 warn ERESOLVE       dependents: [Array]
+47 warn ERESOLVE     }
+47 warn ERESOLVE   },
+47 warn ERESOLVE   dep: {
+47 warn ERESOLVE     name: 'react',
+47 warn ERESOLVE     version: '18.3.1',
+47 warn ERESOLVE     whileInstalling: {
+47 warn ERESOLVE       name: 'my-v0-project',
+47 warn ERESOLVE       version: '0.1.0',
+47 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+47 warn ERESOLVE     },
+47 warn ERESOLVE     location: 'node_modules/react',
+47 warn ERESOLVE     isWorkspace: false,
+47 warn ERESOLVE     dependents: [ [Object] ]
+47 warn ERESOLVE   },
+47 warn ERESOLVE   force: false,
+47 warn ERESOLVE   isMine: true,
+47 warn ERESOLVE   strictPeerDeps: false,
+47 warn ERESOLVE   current: {
+47 warn ERESOLVE     name: 'react',
+47 warn ERESOLVE     version: '19.1.0',
+47 warn ERESOLVE     location: 'node_modules/react',
+47 warn ERESOLVE     isWorkspace: false,
+47 warn ERESOLVE     dependents: [
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+47 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+47 warn ERESOLVE     ]
+47 warn ERESOLVE   }
+47 warn ERESOLVE }
+48 warn ERESOLVE overriding peer dependency {
+48 warn ERESOLVE   code: 'ERESOLVE',
+48 warn ERESOLVE   edge: {
+48 warn ERESOLVE     type: 'peer',
+48 warn ERESOLVE     name: 'react',
+48 warn ERESOLVE     spec: '^19.1.0',
+48 warn ERESOLVE     from: {
+48 warn ERESOLVE       name: 'react-dom',
+48 warn ERESOLVE       version: '19.1.0',
+48 warn ERESOLVE       location: 'node_modules/react-dom',
+48 warn ERESOLVE       isWorkspace: false,
+48 warn ERESOLVE       dependents: [Array]
+48 warn ERESOLVE     }
+48 warn ERESOLVE   },
+48 warn ERESOLVE   dep: {
+48 warn ERESOLVE     name: 'react',
+48 warn ERESOLVE     version: '18.3.1',
+48 warn ERESOLVE     whileInstalling: {
+48 warn ERESOLVE       name: 'my-v0-project',
+48 warn ERESOLVE       version: '0.1.0',
+48 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+48 warn ERESOLVE     },
+48 warn ERESOLVE     location: 'node_modules/react',
+48 warn ERESOLVE     isWorkspace: false,
+48 warn ERESOLVE     dependents: [ [Object] ]
+48 warn ERESOLVE   },
+48 warn ERESOLVE   force: false,
+48 warn ERESOLVE   isMine: true,
+48 warn ERESOLVE   strictPeerDeps: false,
+48 warn ERESOLVE   current: {
+48 warn ERESOLVE     name: 'react',
+48 warn ERESOLVE     version: '19.1.0',
+48 warn ERESOLVE     location: 'node_modules/react',
+48 warn ERESOLVE     isWorkspace: false,
+48 warn ERESOLVE     dependents: [
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+48 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+48 warn ERESOLVE     ]
+48 warn ERESOLVE   }
+48 warn ERESOLVE }
+49 warn ERESOLVE overriding peer dependency {
+49 warn ERESOLVE   code: 'ERESOLVE',
+49 warn ERESOLVE   edge: {
+49 warn ERESOLVE     type: 'peer',
+49 warn ERESOLVE     name: 'react',
+49 warn ERESOLVE     spec: '^19.1.0',
+49 warn ERESOLVE     from: {
+49 warn ERESOLVE       name: 'react-dom',
+49 warn ERESOLVE       version: '19.1.0',
+49 warn ERESOLVE       location: 'node_modules/react-dom',
+49 warn ERESOLVE       isWorkspace: false,
+49 warn ERESOLVE       dependents: [Array]
+49 warn ERESOLVE     }
+49 warn ERESOLVE   },
+49 warn ERESOLVE   dep: {
+49 warn ERESOLVE     name: 'react',
+49 warn ERESOLVE     version: '18.3.1',
+49 warn ERESOLVE     whileInstalling: {
+49 warn ERESOLVE       name: 'my-v0-project',
+49 warn ERESOLVE       version: '0.1.0',
+49 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+49 warn ERESOLVE     },
+49 warn ERESOLVE     location: 'node_modules/react',
+49 warn ERESOLVE     isWorkspace: false,
+49 warn ERESOLVE     dependents: [ [Object] ]
+49 warn ERESOLVE   },
+49 warn ERESOLVE   force: false,
+49 warn ERESOLVE   isMine: true,
+49 warn ERESOLVE   strictPeerDeps: false,
+49 warn ERESOLVE   current: {
+49 warn ERESOLVE     name: 'react',
+49 warn ERESOLVE     version: '19.1.0',
+49 warn ERESOLVE     location: 'node_modules/react',
+49 warn ERESOLVE     isWorkspace: false,
+49 warn ERESOLVE     dependents: [
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+49 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+49 warn ERESOLVE     ]
+49 warn ERESOLVE   }
+49 warn ERESOLVE }
+50 warn ERESOLVE overriding peer dependency {
+50 warn ERESOLVE   code: 'ERESOLVE',
+50 warn ERESOLVE   edge: {
+50 warn ERESOLVE     type: 'peer',
+50 warn ERESOLVE     name: 'react',
+50 warn ERESOLVE     spec: '^19.1.0',
+50 warn ERESOLVE     from: {
+50 warn ERESOLVE       name: 'react-dom',
+50 warn ERESOLVE       version: '19.1.0',
+50 warn ERESOLVE       location: 'node_modules/react-dom',
+50 warn ERESOLVE       isWorkspace: false,
+50 warn ERESOLVE       dependents: [Array]
+50 warn ERESOLVE     }
+50 warn ERESOLVE   },
+50 warn ERESOLVE   dep: {
+50 warn ERESOLVE     name: 'react',
+50 warn ERESOLVE     version: '18.3.1',
+50 warn ERESOLVE     whileInstalling: {
+50 warn ERESOLVE       name: 'my-v0-project',
+50 warn ERESOLVE       version: '0.1.0',
+50 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+50 warn ERESOLVE     },
+50 warn ERESOLVE     location: 'node_modules/react',
+50 warn ERESOLVE     isWorkspace: false,
+50 warn ERESOLVE     dependents: [ [Object] ]
+50 warn ERESOLVE   },
+50 warn ERESOLVE   force: false,
+50 warn ERESOLVE   isMine: true,
+50 warn ERESOLVE   strictPeerDeps: false,
+50 warn ERESOLVE   current: {
+50 warn ERESOLVE     name: 'react',
+50 warn ERESOLVE     version: '19.1.0',
+50 warn ERESOLVE     location: 'node_modules/react',
+50 warn ERESOLVE     isWorkspace: false,
+50 warn ERESOLVE     dependents: [
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+50 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+50 warn ERESOLVE     ]
+50 warn ERESOLVE   }
+50 warn ERESOLVE }
+51 warn ERESOLVE overriding peer dependency {
+51 warn ERESOLVE   code: 'ERESOLVE',
+51 warn ERESOLVE   edge: {
+51 warn ERESOLVE     type: 'peer',
+51 warn ERESOLVE     name: 'react',
+51 warn ERESOLVE     spec: '^19.1.0',
+51 warn ERESOLVE     from: {
+51 warn ERESOLVE       name: 'react-dom',
+51 warn ERESOLVE       version: '19.1.0',
+51 warn ERESOLVE       location: 'node_modules/react-dom',
+51 warn ERESOLVE       isWorkspace: false,
+51 warn ERESOLVE       dependents: [Array]
+51 warn ERESOLVE     }
+51 warn ERESOLVE   },
+51 warn ERESOLVE   dep: {
+51 warn ERESOLVE     name: 'react',
+51 warn ERESOLVE     version: '18.3.1',
+51 warn ERESOLVE     whileInstalling: {
+51 warn ERESOLVE       name: 'my-v0-project',
+51 warn ERESOLVE       version: '0.1.0',
+51 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+51 warn ERESOLVE     },
+51 warn ERESOLVE     location: 'node_modules/react',
+51 warn ERESOLVE     isWorkspace: false,
+51 warn ERESOLVE     dependents: [ [Object] ]
+51 warn ERESOLVE   },
+51 warn ERESOLVE   force: false,
+51 warn ERESOLVE   isMine: true,
+51 warn ERESOLVE   strictPeerDeps: false,
+51 warn ERESOLVE   current: {
+51 warn ERESOLVE     name: 'react',
+51 warn ERESOLVE     version: '19.1.0',
+51 warn ERESOLVE     location: 'node_modules/react',
+51 warn ERESOLVE     isWorkspace: false,
+51 warn ERESOLVE     dependents: [
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+51 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+51 warn ERESOLVE     ]
+51 warn ERESOLVE   }
+51 warn ERESOLVE }
+52 warn ERESOLVE overriding peer dependency {
+52 warn ERESOLVE   code: 'ERESOLVE',
+52 warn ERESOLVE   edge: {
+52 warn ERESOLVE     type: 'peer',
+52 warn ERESOLVE     name: 'react',
+52 warn ERESOLVE     spec: '^19.1.0',
+52 warn ERESOLVE     from: {
+52 warn ERESOLVE       name: 'react-dom',
+52 warn ERESOLVE       version: '19.1.0',
+52 warn ERESOLVE       location: 'node_modules/react-dom',
+52 warn ERESOLVE       isWorkspace: false,
+52 warn ERESOLVE       dependents: [Array]
+52 warn ERESOLVE     }
+52 warn ERESOLVE   },
+52 warn ERESOLVE   dep: {
+52 warn ERESOLVE     name: 'react',
+52 warn ERESOLVE     version: '18.3.1',
+52 warn ERESOLVE     whileInstalling: {
+52 warn ERESOLVE       name: 'my-v0-project',
+52 warn ERESOLVE       version: '0.1.0',
+52 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+52 warn ERESOLVE     },
+52 warn ERESOLVE     location: 'node_modules/react',
+52 warn ERESOLVE     isWorkspace: false,
+52 warn ERESOLVE     dependents: [ [Object] ]
+52 warn ERESOLVE   },
+52 warn ERESOLVE   force: false,
+52 warn ERESOLVE   isMine: true,
+52 warn ERESOLVE   strictPeerDeps: false,
+52 warn ERESOLVE   current: {
+52 warn ERESOLVE     name: 'react',
+52 warn ERESOLVE     version: '19.1.0',
+52 warn ERESOLVE     location: 'node_modules/react',
+52 warn ERESOLVE     isWorkspace: false,
+52 warn ERESOLVE     dependents: [
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+52 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+52 warn ERESOLVE     ]
+52 warn ERESOLVE   }
+52 warn ERESOLVE }
+53 warn ERESOLVE overriding peer dependency {
+53 warn ERESOLVE   code: 'ERESOLVE',
+53 warn ERESOLVE   edge: {
+53 warn ERESOLVE     type: 'peer',
+53 warn ERESOLVE     name: 'react',
+53 warn ERESOLVE     spec: '^19.1.0',
+53 warn ERESOLVE     from: {
+53 warn ERESOLVE       name: 'react-dom',
+53 warn ERESOLVE       version: '19.1.0',
+53 warn ERESOLVE       location: 'node_modules/react-dom',
+53 warn ERESOLVE       isWorkspace: false,
+53 warn ERESOLVE       dependents: [Array]
+53 warn ERESOLVE     }
+53 warn ERESOLVE   },
+53 warn ERESOLVE   dep: {
+53 warn ERESOLVE     name: 'react',
+53 warn ERESOLVE     version: '18.3.1',
+53 warn ERESOLVE     whileInstalling: {
+53 warn ERESOLVE       name: 'my-v0-project',
+53 warn ERESOLVE       version: '0.1.0',
+53 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+53 warn ERESOLVE     },
+53 warn ERESOLVE     location: 'node_modules/react',
+53 warn ERESOLVE     isWorkspace: false,
+53 warn ERESOLVE     dependents: [ [Object] ]
+53 warn ERESOLVE   },
+53 warn ERESOLVE   force: false,
+53 warn ERESOLVE   isMine: true,
+53 warn ERESOLVE   strictPeerDeps: false,
+53 warn ERESOLVE   current: {
+53 warn ERESOLVE     name: 'react',
+53 warn ERESOLVE     version: '19.1.0',
+53 warn ERESOLVE     location: 'node_modules/react',
+53 warn ERESOLVE     isWorkspace: false,
+53 warn ERESOLVE     dependents: [
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+53 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+53 warn ERESOLVE     ]
+53 warn ERESOLVE   }
+53 warn ERESOLVE }
+54 warn ERESOLVE overriding peer dependency {
+54 warn ERESOLVE   code: 'ERESOLVE',
+54 warn ERESOLVE   edge: {
+54 warn ERESOLVE     type: 'peer',
+54 warn ERESOLVE     name: 'react',
+54 warn ERESOLVE     spec: '^19.1.0',
+54 warn ERESOLVE     from: {
+54 warn ERESOLVE       name: 'react-dom',
+54 warn ERESOLVE       version: '19.1.0',
+54 warn ERESOLVE       location: 'node_modules/react-dom',
+54 warn ERESOLVE       isWorkspace: false,
+54 warn ERESOLVE       dependents: [Array]
+54 warn ERESOLVE     }
+54 warn ERESOLVE   },
+54 warn ERESOLVE   dep: {
+54 warn ERESOLVE     name: 'react',
+54 warn ERESOLVE     version: '18.3.1',
+54 warn ERESOLVE     whileInstalling: {
+54 warn ERESOLVE       name: 'my-v0-project',
+54 warn ERESOLVE       version: '0.1.0',
+54 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+54 warn ERESOLVE     },
+54 warn ERESOLVE     location: 'node_modules/react',
+54 warn ERESOLVE     isWorkspace: false,
+54 warn ERESOLVE     dependents: [ [Object] ]
+54 warn ERESOLVE   },
+54 warn ERESOLVE   force: false,
+54 warn ERESOLVE   isMine: true,
+54 warn ERESOLVE   strictPeerDeps: false,
+54 warn ERESOLVE   current: {
+54 warn ERESOLVE     name: 'react',
+54 warn ERESOLVE     version: '19.1.0',
+54 warn ERESOLVE     location: 'node_modules/react',
+54 warn ERESOLVE     isWorkspace: false,
+54 warn ERESOLVE     dependents: [
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+54 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+54 warn ERESOLVE     ]
+54 warn ERESOLVE   }
+54 warn ERESOLVE }
+55 warn ERESOLVE overriding peer dependency {
+55 warn ERESOLVE   code: 'ERESOLVE',
+55 warn ERESOLVE   edge: {
+55 warn ERESOLVE     type: 'peer',
+55 warn ERESOLVE     name: 'react',
+55 warn ERESOLVE     spec: '^19.1.0',
+55 warn ERESOLVE     from: {
+55 warn ERESOLVE       name: 'react-dom',
+55 warn ERESOLVE       version: '19.1.0',
+55 warn ERESOLVE       location: 'node_modules/react-dom',
+55 warn ERESOLVE       isWorkspace: false,
+55 warn ERESOLVE       dependents: [Array]
+55 warn ERESOLVE     }
+55 warn ERESOLVE   },
+55 warn ERESOLVE   dep: {
+55 warn ERESOLVE     name: 'react',
+55 warn ERESOLVE     version: '18.3.1',
+55 warn ERESOLVE     whileInstalling: {
+55 warn ERESOLVE       name: 'my-v0-project',
+55 warn ERESOLVE       version: '0.1.0',
+55 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+55 warn ERESOLVE     },
+55 warn ERESOLVE     location: 'node_modules/react',
+55 warn ERESOLVE     isWorkspace: false,
+55 warn ERESOLVE     dependents: [ [Object] ]
+55 warn ERESOLVE   },
+55 warn ERESOLVE   force: false,
+55 warn ERESOLVE   isMine: true,
+55 warn ERESOLVE   strictPeerDeps: false,
+55 warn ERESOLVE   current: {
+55 warn ERESOLVE     name: 'react',
+55 warn ERESOLVE     version: '19.1.0',
+55 warn ERESOLVE     location: 'node_modules/react',
+55 warn ERESOLVE     isWorkspace: false,
+55 warn ERESOLVE     dependents: [
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+55 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+55 warn ERESOLVE     ]
+55 warn ERESOLVE   }
+55 warn ERESOLVE }
+56 warn ERESOLVE overriding peer dependency {
+56 warn ERESOLVE   code: 'ERESOLVE',
+56 warn ERESOLVE   edge: {
+56 warn ERESOLVE     type: 'peer',
+56 warn ERESOLVE     name: 'react',
+56 warn ERESOLVE     spec: '^19.1.0',
+56 warn ERESOLVE     from: {
+56 warn ERESOLVE       name: 'react-dom',
+56 warn ERESOLVE       version: '19.1.0',
+56 warn ERESOLVE       location: 'node_modules/react-dom',
+56 warn ERESOLVE       isWorkspace: false,
+56 warn ERESOLVE       dependents: [Array]
+56 warn ERESOLVE     }
+56 warn ERESOLVE   },
+56 warn ERESOLVE   dep: {
+56 warn ERESOLVE     name: 'react',
+56 warn ERESOLVE     version: '18.3.1',
+56 warn ERESOLVE     whileInstalling: {
+56 warn ERESOLVE       name: 'my-v0-project',
+56 warn ERESOLVE       version: '0.1.0',
+56 warn ERESOLVE       path: 'D:\\ok practice stage 4'
+56 warn ERESOLVE     },
+56 warn ERESOLVE     location: 'node_modules/react',
+56 warn ERESOLVE     isWorkspace: false,
+56 warn ERESOLVE     dependents: [ [Object] ]
+56 warn ERESOLVE   },
+56 warn ERESOLVE   force: false,
+56 warn ERESOLVE   isMine: true,
+56 warn ERESOLVE   strictPeerDeps: false,
+56 warn ERESOLVE   current: {
+56 warn ERESOLVE     name: 'react',
+56 warn ERESOLVE     version: '19.1.0',
+56 warn ERESOLVE     location: 'node_modules/react',
+56 warn ERESOLVE     isWorkspace: false,
+56 warn ERESOLVE     dependents: [
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object],
+56 warn ERESOLVE       [Object], [Object], [Object], [Object], [Object]
+56 warn ERESOLVE     ]
+56 warn ERESOLVE   }
+56 warn ERESOLVE }
+57 silly placeDep ROOT react-dom@18.3.1 REPLACE for: my-v0-project@0.1.0 want: 18.3.1
+58 silly fetch manifest loose-envify@^1.1.0
+59 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-miss
+60 silly fetch manifest scheduler@^0.23.2
+61 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+62 silly fetch manifest loose-envify@^1.1.0
+63 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/loose-envify 858ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+66 http fetch GET 200 https://registry.npmjs.org/loose-envify 863ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/scheduler 1499ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+70 silly fetch manifest @radix-ui/react-collapsible@latest
+71 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-collapsible cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-collapsible 328ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-collapsible set size:undefined disposed:false
+74 silly fetch manifest @types/react@^19
+75 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+76 http cache https://registry.npmjs.org/@types%2freact 13ms (cache hit)
+77 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2355905 disposed:false
+78 silly fetch manifest @types/react-dom@^19
+79 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+80 http cache https://registry.npmjs.org/@types%2freact-dom 7ms (cache hit)
+81 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:391380 disposed:false
+82 silly fetch manifest @radix-ui/react-dialog@^1.1.4
+83 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dialog cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-dialog 318ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dialog set size:undefined disposed:false
+86 silly fetch manifest @radix-ui/react-toggle@^1.1.1
+87 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-toggle cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-toggle 193ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-toggle set size:undefined disposed:false
+90 silly placeDep ROOT @radix-ui/react-collapsible@1.1.8 OK for: my-v0-project@0.1.0 want: latest
+91 silly placeDep ROOT @radix-ui/react-dialog@1.1.11 OK for: my-v0-project@0.1.0 want: ^1.1.4
+92 silly placeDep ROOT @radix-ui/react-toggle@1.1.6 OK for: my-v0-project@0.1.0 want: ^1.1.1
+93 silly fetch manifest @radix-ui/react-presence@1.1.4
+94 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence cache-miss
+95 silly fetch manifest @radix-ui/react-primitive@2.1.0
+96 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-primitive cache-miss
+97 silly fetch manifest @radix-ui/react-portal@1.1.6
+98 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-portal cache-miss
+99 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-presence 186ms (cache miss)
+100 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence set size:undefined disposed:false
+101 silly fetch manifest @radix-ui/react-primitive@2.1.0
+102 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-primitive cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-portal 199ms (cache miss)
+104 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-portal set size:undefined disposed:false
+105 silly fetch manifest @radix-ui/react-focus-scope@1.1.4
+106 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-focus-scope cache-miss
+107 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-primitive 210ms (cache miss)
+108 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-primitive set size:undefined disposed:false
+109 silly fetch manifest @radix-ui/react-dismissable-layer@1.1.7
+110 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dismissable-layer cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-primitive 209ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-primitive set size:undefined disposed:false
+113 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-dismissable-layer 298ms (cache miss)
+114 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dismissable-layer set size:undefined disposed:false
+115 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-focus-scope 430ms (cache miss)
+116 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-focus-scope set size:undefined disposed:false
+117 silly fetch manifest @radix-ui/react-collapsible@1.1.7
+118 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-collapsible cache-miss
+119 http cache https://registry.npmjs.org/@radix-ui%2freact-collapsible 7ms (cache hit)
+120 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-collapsible set size:694408 disposed:false
+121 silly fetch manifest @types/react@*
+122 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+123 http cache https://registry.npmjs.org/@types%2freact 11ms (cache hit)
+124 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2355905 disposed:false
+125 silly fetch manifest @types/react-dom@*
+126 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-hit
+127 silly fetch manifest react@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+128 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+129 http cache https://registry.npmjs.org/react 25ms (cache hit)
+130 silly packumentCache full:https://registry.npmjs.org/react set size:5641748 disposed:false
+131 silly fetch manifest react-dom@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+132 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+133 http cache https://registry.npmjs.org/react-dom 26ms (cache hit)
+134 silly packumentCache full:https://registry.npmjs.org/react-dom set size:7141200 disposed:false
+135 silly fetch manifest @radix-ui/react-collection@1.1.4
+136 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-collection cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-collection 179ms (cache miss)
+138 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-collection set size:undefined disposed:false
+139 silly placeDep node_modules/@radix-ui/react-accordion @radix-ui/react-collapsible@1.1.7 OK for: @radix-ui/react-accordion@1.2.7 want: 1.1.7
+140 silly placeDep ROOT @radix-ui/react-collection@1.1.4 OK for: @radix-ui/react-accordion@1.2.7 want: 1.1.4
+141 silly placeDep ROOT @radix-ui/react-primitive@2.1.0 OK for: @radix-ui/react-accordion@1.2.7 want: 2.1.0
+142 silly fetch manifest @radix-ui/react-presence@1.1.3
+143 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence cache-miss
+144 http cache https://registry.npmjs.org/@radix-ui%2freact-presence 17ms (cache hit)
+145 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-presence set size:390570 disposed:false
+146 silly fetch manifest @radix-ui/react-dialog@1.1.10
+147 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dialog cache-miss
+148 http cache https://registry.npmjs.org/@radix-ui%2freact-dialog 9ms (cache hit)
+149 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-dialog set size:921836 disposed:false
+150 silly placeDep node_modules/@radix-ui/react-alert-dialog @radix-ui/react-dialog@1.1.10 OK for: @radix-ui/react-alert-dialog@1.1.10 want: 1.1.10
+151 silly placeDep ROOT @radix-ui/react-presence@1.1.3 OK for: @radix-ui/react-checkbox@1.2.2 want: 1.1.3
+152 silly placeDep node_modules/@radix-ui/react-collapsible @radix-ui/react-presence@1.1.4 OK for: @radix-ui/react-collapsible@1.1.8 want: 1.1.4
+153 silly fetch manifest @radix-ui/react-menu@2.1.11
+154 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-menu cache-miss
+155 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-menu 210ms (cache miss)
+156 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-menu set size:undefined disposed:false
+157 silly placeDep ROOT @radix-ui/react-menu@2.1.11 OK for: @radix-ui/react-context-menu@2.2.11 want: 2.1.11
+158 silly fetch manifest @radix-ui/react-popper@1.2.4
+159 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-popper cache-miss
+160 silly fetch manifest @radix-ui/react-roving-focus@1.1.7
+161 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-roving-focus cache-miss
+162 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-popper 434ms (cache miss)
+163 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-popper set size:undefined disposed:false
+164 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-roving-focus 469ms (cache miss)
+165 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-roving-focus set size:undefined disposed:false
+166 silly placeDep ROOT @radix-ui/react-dismissable-layer@1.1.7 OK for: @radix-ui/react-dialog@1.1.11 want: 1.1.7
+167 silly placeDep ROOT @radix-ui/react-focus-scope@1.1.4 OK for: @radix-ui/react-dialog@1.1.11 want: 1.1.4
+168 silly placeDep ROOT @radix-ui/react-portal@1.1.6 OK for: @radix-ui/react-dialog@1.1.11 want: 1.1.6
+169 silly placeDep node_modules/@radix-ui/react-dialog @radix-ui/react-presence@1.1.4 OK for: @radix-ui/react-dialog@1.1.11 want: 1.1.4
+170 silly fetch manifest @radix-ui/react-use-escape-keydown@1.1.1
+171 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-escape-keydown cache-miss
+172 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-escape-keydown 189ms (cache miss)
+173 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-escape-keydown set size:undefined disposed:false
+174 silly placeDep ROOT @radix-ui/react-use-escape-keydown@1.1.1 OK for: @radix-ui/react-dismissable-layer@1.1.7 want: 1.1.1
+175 silly placeDep ROOT @radix-ui/react-popper@1.2.4 OK for: @radix-ui/react-hover-card@1.1.10 want: 1.2.4
+176 silly fetch manifest @radix-ui/rect@1.1.1
+177 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2frect cache-miss
+178 silly fetch manifest @radix-ui/react-arrow@1.1.4
+179 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-arrow cache-miss
+180 silly fetch manifest @floating-ui/react-dom@^2.0.0
+181 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2freact-dom cache-miss
+182 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2freact-dom 192ms (cache miss)
+183 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2freact-dom set size:undefined disposed:false
+184 silly fetch manifest @radix-ui/react-use-rect@1.1.1
+185 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-rect cache-miss
+186 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-arrow 205ms (cache miss)
+187 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-arrow set size:undefined disposed:false
+188 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2frect 257ms (cache miss)
+189 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2frect set size:undefined disposed:false
+190 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-use-rect 201ms (cache miss)
+191 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-use-rect set size:undefined disposed:false
+192 silly placeDep ROOT @radix-ui/react-roving-focus@1.1.7 OK for: @radix-ui/react-menu@2.1.11 want: 1.1.7
+193 silly fetch manifest @radix-ui/react-visually-hidden@1.2.0
+194 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-visually-hidden cache-miss
+195 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-visually-hidden 209ms (cache miss)
+196 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-visually-hidden set size:undefined disposed:false
+197 silly placeDep ROOT @radix-ui/react-visually-hidden@1.2.0 OK for: @radix-ui/react-navigation-menu@1.2.9 want: 1.2.0
+198 silly placeDep ROOT @floating-ui/react-dom@2.1.2 OK for: @radix-ui/react-popper@1.2.4 want: ^2.0.0
+199 silly placeDep ROOT @radix-ui/react-arrow@1.1.4 OK for: @radix-ui/react-popper@1.2.4 want: 1.1.4
+200 silly placeDep ROOT @radix-ui/react-use-rect@1.1.1 OK for: @radix-ui/react-popper@1.2.4 want: 1.1.1
+201 silly placeDep ROOT @radix-ui/rect@1.1.1 OK for: @radix-ui/react-popper@1.2.4 want: 1.1.1
+202 silly fetch manifest @floating-ui/dom@^1.0.0
+203 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2fdom cache-miss
+204 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2fdom 176ms (cache miss)
+205 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2fdom set size:undefined disposed:false
+206 silly placeDep ROOT @floating-ui/dom@1.6.13 OK for: @floating-ui/react-dom@2.1.2 want: ^1.0.0
+207 silly fetch manifest @floating-ui/core@^1.6.0
+208 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2fcore cache-miss
+209 silly fetch manifest @floating-ui/utils@^0.2.9
+210 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2futils cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2fcore 178ms (cache miss)
+212 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2fcore set size:undefined disposed:false
+213 http fetch GET 200 https://registry.npmjs.org/@floating-ui%2futils 335ms (cache miss)
+214 silly packumentCache full:https://registry.npmjs.org/@floating-ui%2futils set size:undefined disposed:false
+215 silly placeDep ROOT @floating-ui/core@1.6.9 OK for: @floating-ui/dom@1.6.13 want: ^1.6.0
+216 silly placeDep ROOT @floating-ui/utils@0.2.9 OK for: @floating-ui/dom@1.6.13 want: ^0.2.9
+217 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.3.1 want: ^1.1.0
+218 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+219 silly packumentCache full:https://registry.npmjs.org/js-tokens cache-miss
+220 http fetch GET 200 https://registry.npmjs.org/js-tokens 132ms (cache miss)
+221 silly packumentCache full:https://registry.npmjs.org/js-tokens set size:undefined disposed:false
+222 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+223 silly placeDep ROOT scheduler@0.23.2 OK for: react-dom@18.3.1 want: ^0.23.2
+224 silly fetch manifest react-smooth@^4.0.4
+225 silly packumentCache full:https://registry.npmjs.org/react-smooth cache-miss
+226 http fetch GET 200 https://registry.npmjs.org/react-smooth 149ms (cache miss)
+227 silly packumentCache full:https://registry.npmjs.org/react-smooth set size:undefined disposed:false
+228 silly fetch manifest react@^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+229 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+230 http cache https://registry.npmjs.org/react 27ms (cache hit)
+231 silly packumentCache full:https://registry.npmjs.org/react set size:5641748 disposed:false
+232 silly fetch manifest react-dom@^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+233 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+234 http cache https://registry.npmjs.org/react-dom 25ms (cache hit)
+235 silly packumentCache full:https://registry.npmjs.org/react-dom set size:7141200 disposed:false
+236 silly placeDep ROOT react-smooth@4.0.4 OK for: recharts@2.15.3 want: ^4.0.4
+237 silly fetch manifest fast-equals@^5.0.1
+238 silly packumentCache full:https://registry.npmjs.org/fast-equals cache-miss
+239 silly fetch manifest prop-types@^15.8.1
+240 silly packumentCache full:https://registry.npmjs.org/prop-types cache-miss
+241 silly fetch manifest react-transition-group@^4.4.5
+242 silly packumentCache full:https://registry.npmjs.org/react-transition-group cache-miss
+243 http fetch GET 200 https://registry.npmjs.org/prop-types 175ms (cache miss)
+244 silly packumentCache full:https://registry.npmjs.org/prop-types set size:undefined disposed:false
+245 http fetch GET 200 https://registry.npmjs.org/react-transition-group 181ms (cache miss)
+246 silly packumentCache full:https://registry.npmjs.org/react-transition-group set size:undefined disposed:false
+247 http fetch GET 200 https://registry.npmjs.org/fast-equals 209ms (cache miss)
+248 silly packumentCache full:https://registry.npmjs.org/fast-equals set size:undefined disposed:false
+249 silly fetch manifest react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+250 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+251 http cache https://registry.npmjs.org/react 25ms (cache hit)
+252 silly packumentCache full:https://registry.npmjs.org/react set size:5641748 disposed:false
+253 silly fetch manifest react-dom@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+254 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+255 http cache https://registry.npmjs.org/react-dom 231ms (cache hit)
+256 silly packumentCache full:https://registry.npmjs.org/react-dom set size:7141200 disposed:false
+257 silly placeDep ROOT fast-equals@5.2.2 OK for: react-smooth@4.0.4 want: ^5.0.1
+258 silly placeDep ROOT prop-types@15.8.1 OK for: react-smooth@4.0.4 want: ^15.8.1
+259 silly placeDep ROOT react-transition-group@4.4.5 OK for: react-smooth@4.0.4 want: ^4.4.5
+260 silly fetch manifest react-is@^16.13.1
+261 silly packumentCache full:https://registry.npmjs.org/react-is cache-miss
+262 silly fetch manifest @babel/runtime@^7.5.5
+263 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+264 silly fetch manifest dom-helpers@^5.0.1
+265 silly packumentCache full:https://registry.npmjs.org/dom-helpers cache-miss
+266 http fetch GET 200 https://registry.npmjs.org/dom-helpers 183ms (cache miss)
+267 silly packumentCache full:https://registry.npmjs.org/dom-helpers set size:undefined disposed:false
+268 http fetch GET 200 https://registry.npmjs.org/@babel%2fruntime 359ms (cache miss)
+269 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:undefined disposed:false
+270 http fetch GET 200 https://registry.npmjs.org/react-is 1212ms (cache miss)
+271 silly packumentCache full:https://registry.npmjs.org/react-is set size:undefined disposed:false
+272 silly placeDep node_modules/prop-types react-is@16.13.1 OK for: prop-types@15.8.1 want: ^16.13.1
+273 silly placeDep ROOT @babel/runtime@7.27.0 OK for: react-transition-group@4.4.5 want: ^7.5.5
+274 silly placeDep ROOT dom-helpers@5.2.1 OK for: react-transition-group@4.4.5 want: ^5.0.1
+275 silly fetch manifest regenerator-runtime@^0.14.0
+276 silly packumentCache full:https://registry.npmjs.org/regenerator-runtime cache-miss
+277 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 207ms (cache miss)
+278 silly packumentCache full:https://registry.npmjs.org/regenerator-runtime set size:undefined disposed:false
+279 silly placeDep ROOT regenerator-runtime@0.14.1 OK for: @babel/runtime@7.27.0 want: ^0.14.0
+280 silly reify mark retired [
+280 silly reify   'D:\\ok practice stage 4\\node_modules\\@radix-ui\\react-collapsible'
+280 silly reify ]
+281 silly reify mark retired [ 'D:\\ok practice stage 4\\node_modules\\@radix-ui\\react-dialog' ]
+282 silly reify mark retired [ 'D:\\ok practice stage 4\\node_modules\\react' ]
+283 silly reify mark retired [ 'D:\\ok practice stage 4\\node_modules\\react-dom' ]
+284 silly reify mark retired [ 'D:\\ok practice stage 4\\node_modules\\scheduler' ]
+285 silly reify moves {
+285 silly reify   'D:\\ok practice stage 4\\node_modules\\@radix-ui\\react-collapsible': 'D:\\ok practice stage 4\\node_modules\\@radix-ui\\.react-collapsible-FNCY1t4C',
+285 silly reify   'D:\\ok practice stage 4\\node_modules\\@radix-ui\\react-dialog': 'D:\\ok practice stage 4\\node_modules\\@radix-ui\\.react-dialog-juQ9duN3',
+285 silly reify   'D:\\ok practice stage 4\\node_modules\\react': 'D:\\ok practice stage 4\\node_modules\\.react-FICku20S',
+285 silly reify   'D:\\ok practice stage 4\\node_modules\\react-dom': 'D:\\ok practice stage 4\\node_modules\\.react-dom-CrrSYFqh',
+285 silly reify   'D:\\ok practice stage 4\\node_modules\\scheduler': 'D:\\ok practice stage 4\\node_modules\\.scheduler-XyMjDP70'
+285 silly reify }
+286 silly audit bulk request {
+286 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+286 silly audit   '@emnapi/runtime': [ '1.4.3' ],
+286 silly audit   '@esbuild/aix-ppc64': [ '0.25.2' ],
+286 silly audit   '@esbuild/android-arm': [ '0.25.2' ],
+286 silly audit   '@esbuild/android-arm64': [ '0.25.2' ],
+286 silly audit   '@esbuild/android-x64': [ '0.25.2' ],
+286 silly audit   '@esbuild/darwin-arm64': [ '0.25.2' ],
+286 silly audit   '@esbuild/darwin-x64': [ '0.25.2' ],
+286 silly audit   '@esbuild/freebsd-arm64': [ '0.25.2' ],
+286 silly audit   '@esbuild/freebsd-x64': [ '0.25.2' ],
+286 silly audit   '@esbuild/linux-arm': [ '0.25.2' ],
+286 silly audit   '@esbuild/linux-arm64': [ '0.25.2' ],
+286 silly audit   '@esbuild/linux-ia32': [ '0.25.2' ],
+286 silly audit   '@esbuild/linux-loong64': [ '0.25.2' ],
+286 silly audit   '@esbuild/linux-mips64el': [ '0.25.2' ],
+286 silly audit   '@esbuild/linux-ppc64': [ '0.25.2' ],
+286 silly audit   '@esbuild/linux-riscv64': [ '0.25.2' ],
+286 silly audit   '@esbuild/linux-s390x': [ '0.25.2' ],
+286 silly audit   '@esbuild/linux-x64': [ '0.25.2' ],
+286 silly audit   '@esbuild/netbsd-arm64': [ '0.25.2' ],
+286 silly audit   '@esbuild/netbsd-x64': [ '0.25.2' ],
+286 silly audit   '@esbuild/openbsd-arm64': [ '0.25.2' ],
+286 silly audit   '@esbuild/openbsd-x64': [ '0.25.2' ],
+286 silly audit   '@esbuild/sunos-x64': [ '0.25.2' ],
+286 silly audit   '@esbuild/win32-arm64': [ '0.25.2' ],
+286 silly audit   '@esbuild/win32-ia32': [ '0.25.2' ],
+286 silly audit   '@esbuild/win32-x64': [ '0.25.2' ],
+286 silly audit   '@hookform/resolvers': [ '3.10.0' ],
+286 silly audit   '@img/sharp-darwin-arm64': [ '0.33.5' ],
+286 silly audit   '@img/sharp-darwin-x64': [ '0.33.5' ],
+286 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.0.4' ],
+286 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.0.4' ],
+286 silly audit   '@img/sharp-libvips-linux-arm': [ '1.0.5' ],
+286 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.0.4' ],
+286 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.0.4' ],
+286 silly audit   '@img/sharp-libvips-linux-x64': [ '1.0.4' ],
+286 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.0.4' ],
+286 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.0.4' ],
+286 silly audit   '@img/sharp-linux-arm': [ '0.33.5' ],
+286 silly audit   '@img/sharp-linux-arm64': [ '0.33.5' ],
+286 silly audit   '@img/sharp-linux-s390x': [ '0.33.5' ],
+286 silly audit   '@img/sharp-linux-x64': [ '0.33.5' ],
+286 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.33.5' ],
+286 silly audit   '@img/sharp-linuxmusl-x64': [ '0.33.5' ],
+286 silly audit   '@img/sharp-wasm32': [ '0.33.5' ],
+286 silly audit   '@img/sharp-win32-ia32': [ '0.33.5' ],
+286 silly audit   '@img/sharp-win32-x64': [ '0.33.5' ],
+286 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+286 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+286 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+286 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+286 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+286 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+286 silly audit   '@next/env': [ '15.2.4' ],
+286 silly audit   '@next/swc-darwin-arm64': [ '15.2.4' ],
+286 silly audit   '@next/swc-darwin-x64': [ '15.2.4' ],
+286 silly audit   '@next/swc-linux-arm64-gnu': [ '15.2.4' ],
+286 silly audit   '@next/swc-linux-arm64-musl': [ '15.2.4' ],
+286 silly audit   '@next/swc-linux-x64-gnu': [ '15.2.4' ],
+286 silly audit   '@next/swc-linux-x64-musl': [ '15.2.4' ],
+286 silly audit   '@next/swc-win32-arm64-msvc': [ '15.2.4' ],
+286 silly audit   '@next/swc-win32-x64-msvc': [ '15.2.4' ],
+286 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+286 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+286 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+286 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+286 silly audit   '@prisma/client': [ '6.6.0' ],
+286 silly audit   '@prisma/config': [ '6.6.0' ],
+286 silly audit   '@prisma/debug': [ '6.6.0' ],
+286 silly audit   '@prisma/engines': [ '6.6.0' ],
+286 silly audit   '@prisma/engines-version': [ '6.6.0-53.f676762280b54cd07c770017ed3711ddde35f37a' ],
+286 silly audit   '@prisma/fetch-engine': [ '6.6.0' ],
+286 silly audit   '@prisma/get-platform': [ '6.6.0' ],
+286 silly audit   '@radix-ui/number': [ '1.1.1' ],
+286 silly audit   '@radix-ui/primitive': [ '1.1.2' ],
+286 silly audit   '@radix-ui/react-accordion': [ '1.2.7' ],
+286 silly audit   '@radix-ui/react-alert-dialog': [ '1.1.10' ],
+286 silly audit   '@radix-ui/react-aspect-ratio': [ '1.1.4' ],
+286 silly audit   '@radix-ui/react-avatar': [ '1.1.6' ],
+286 silly audit   '@radix-ui/react-checkbox': [ '1.2.2' ],
+286 silly audit   '@radix-ui/react-compose-refs': [ '1.1.2' ],
+286 silly audit   '@radix-ui/react-context': [ '1.1.2' ],
+286 silly audit   '@radix-ui/react-context-menu': [ '2.2.11' ],
+286 silly audit   '@radix-ui/react-direction': [ '1.1.1' ],
+286 silly audit   '@radix-ui/react-dropdown-menu': [ '2.1.11' ],
+286 silly audit   '@radix-ui/react-focus-guards': [ '1.1.2' ],
+286 silly audit   '@radix-ui/react-hover-card': [ '1.1.10' ],
+286 silly audit   '@radix-ui/react-id': [ '1.1.1' ],
+286 silly audit   '@radix-ui/react-label': [ '2.1.4' ],
+286 silly audit   '@radix-ui/react-menubar': [ '1.1.11' ],
+286 silly audit   '@radix-ui/react-navigation-menu': [ '1.2.9' ],
+286 silly audit   '@radix-ui/react-popover': [ '1.1.10' ],
+286 silly audit   '@radix-ui/react-progress': [ '1.1.4' ],
+286 silly audit   '@radix-ui/react-radio-group': [ '1.3.3' ],
+286 silly audit   '@radix-ui/react-scroll-area': [ '1.2.5' ],
+286 silly audit   '@radix-ui/react-select': [ '2.2.2' ],
+286 silly audit   '@radix-ui/react-separator': [ '1.1.4' ],
+286 silly audit   '@radix-ui/react-slider': [ '1.3.2' ],
+286 silly audit   '@radix-ui/react-slot': [ '1.2.0' ],
+286 silly audit   '@radix-ui/react-switch': [ '1.2.2' ],
+286 silly audit   '@radix-ui/react-tabs': [ '1.1.8' ],
+286 silly audit   '@radix-ui/react-toast': [ '1.2.10' ],
+286 silly audit   '@radix-ui/react-toggle-group': [ '1.1.7' ],
+286 silly audit   '@radix-ui/react-tooltip': [ '1.2.3' ],
+286 silly audit   '@radix-ui/react-use-callback-ref': [ '1.1.1' ],
+286 silly audit   '@radix-ui/react-use-controllable-state': [ '1.2.2' ],
+286 silly audit   '@radix-ui/react-use-effect-event': [ '0.0.2' ],
+286 silly audit   '@radix-ui/react-use-is-hydrated': [ '0.0.0' ],
+286 silly audit   '@radix-ui/react-use-layout-effect': [ '1.1.1' ],
+286 silly audit   '@radix-ui/react-use-previous': [ '1.1.1' ],
+286 silly audit   '@radix-ui/react-use-size': [ '1.1.1' ],
+286 silly audit   '@swc/counter': [ '0.1.3' ],
+286 silly audit   '@swc/helpers': [ '0.5.15' ],
+286 silly audit   '@types/d3-array': [ '3.2.1' ],
+286 silly audit   '@types/d3-color': [ '3.1.3' ],
+286 silly audit   '@types/d3-ease': [ '3.0.2' ],
+286 silly audit   '@types/d3-interpolate': [ '3.0.4' ],
+286 silly audit   '@types/d3-path': [ '3.1.1' ],
+286 silly audit   '@types/d3-scale': [ '4.0.9' ],
+286 silly audit   '@types/d3-shape': [ '3.1.7' ],
+286 silly audit   '@types/d3-time': [ '3.0.4' ],
+286 silly audit   '@types/d3-timer': [ '3.0.2' ],
+286 silly audit   '@types/jsonwebtoken': [ '9.0.9' ],
+286 silly audit   '@types/ms': [ '2.1.0' ],
+286 silly audit   '@types/node': [ '22.14.1' ],
+286 silly audit   '@types/nodemailer': [ '6.4.17' ],
+286 silly audit   '@types/react': [ '19.1.2' ],
+286 silly audit   '@types/react-dom': [ '19.1.2' ],
+286 silly audit   'agent-base': [ '6.0.2' ],
+286 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+286 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+286 silly audit   'any-promise': [ '1.3.0' ],
+286 silly audit   anymatch: [ '3.1.3' ],
+286 silly audit   arg: [ '5.0.2' ],
+286 silly audit   'aria-hidden': [ '1.2.4' ],
+286 silly audit   asynckit: [ '0.4.0' ],
+286 silly audit   autoprefixer: [ '10.4.21' ],
+286 silly audit   axios: [ '1.8.4' ],
+286 silly audit   'balanced-match': [ '1.0.2' ],
+286 silly audit   bcryptjs: [ '3.0.2' ],
+286 silly audit   'binary-extensions': [ '2.3.0' ],
+286 silly audit   'brace-expansion': [ '2.0.1' ],
+286 silly audit   braces: [ '3.0.3' ],
+286 silly audit   browserslist: [ '4.24.4' ],
+286 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+286 silly audit   busboy: [ '1.6.0' ],
+286 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+286 silly audit   'call-bound': [ '1.0.4' ],
+286 silly audit   'camelcase-css': [ '2.0.1' ],
+286 silly audit   'caniuse-lite': [ '1.0.30001715' ],
+286 silly audit   chokidar: [ '3.6.0' ],
+286 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+286 silly audit   'class-variance-authority': [ '0.7.1' ],
+286 silly audit   'client-only': [ '0.0.1' ],
+286 silly audit   clsx: [ '2.1.1' ],
+286 silly audit   cmdk: [ '1.0.4' ],
+286 silly audit   color: [ '4.2.3' ],
+286 silly audit   'color-convert': [ '2.0.1' ],
+286 silly audit   'color-name': [ '1.1.4' ],
+286 silly audit   'color-string': [ '1.9.1' ],
+286 silly audit   'combined-stream': [ '1.0.8' ],
+286 silly audit   commander: [ '4.1.1' ],
+286 silly audit   'cross-spawn': [ '7.0.6' ],
+286 silly audit   crypto: [ '1.0.1' ],
+286 silly audit   cssesc: [ '3.0.0' ],
+286 silly audit   csstype: [ '3.1.3' ],
+286 silly audit   'd3-array': [ '3.2.4' ],
+286 silly audit   'd3-color': [ '3.1.0' ],
+286 silly audit   'd3-ease': [ '3.0.1' ],
+286 silly audit   'd3-format': [ '3.1.0' ],
+286 silly audit   'd3-interpolate': [ '3.0.1' ],
+286 silly audit   'd3-path': [ '3.1.0' ],
+286 silly audit   'd3-scale': [ '4.0.2' ],
+286 silly audit   'd3-shape': [ '3.2.0' ],
+286 silly audit   'd3-time': [ '3.1.0' ],
+286 silly audit   'd3-time-format': [ '4.1.0' ],
+286 silly audit   'd3-timer': [ '3.0.1' ],
+286 silly audit   'date-fns': [ '3.6.0' ],
+286 silly audit   dayjs: [ '1.11.13' ],
+286 silly audit   debug: [ '4.4.0' ],
+286 silly audit   'decimal.js-light': [ '2.5.1' ],
+286 silly audit   'delayed-stream': [ '1.0.0' ],
+286 silly audit   'detect-libc': [ '2.0.3' ],
+286 silly audit   'detect-node-es': [ '1.1.0' ],
+286 silly audit   didyoumean: [ '1.2.2' ],
+286 silly audit   dlv: [ '1.1.3' ],
+286 silly audit   dotenv: [ '16.5.0' ],
+286 silly audit   'dunder-proto': [ '1.0.1' ],
+286 silly audit   eastasianwidth: [ '0.2.0' ],
+286 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+286 silly audit   'electron-to-chromium': [ '1.5.139' ],
+286 silly audit   'embla-carousel': [ '8.5.1' ],
+286 silly audit   'embla-carousel-react': [ '8.5.1' ],
+286 silly audit   'embla-carousel-reactive-utils': [ '8.5.1' ],
+286 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+286 silly audit   'es-define-property': [ '1.0.1' ],
+286 silly audit   'es-errors': [ '1.3.0' ],
+286 silly audit   'es-object-atoms': [ '1.1.1' ],
+286 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+286 silly audit   esbuild: [ '0.25.2' ],
+286 silly audit   'esbuild-register': [ '3.6.0' ],
+286 silly audit   escalade: [ '3.2.0' ],
+286 silly audit   eventemitter3: [ '4.0.7' ],
+286 silly audit   'fast-glob': [ '3.3.3' ],
+286 silly audit   fastq: [ '1.19.1' ],
+286 silly audit   'fill-range': [ '7.1.1' ],
+286 silly audit   'follow-redirects': [ '1.15.9' ],
+286 silly audit   'foreground-child': [ '3.3.1' ],
+286 silly audit   'form-data': [ '4.0.2' ],
+286 silly audit   'fraction.js': [ '4.3.7' ],
+286 silly audit   fsevents: [ '2.3.3' ],
+286 silly audit   'function-bind': [ '1.1.2' ],
+286 silly audit   'get-intrinsic': [ '1.3.0' ],
+286 silly audit   'get-nonce': [ '1.0.1' ],
+286 silly audit   'get-proto': [ '1.0.1' ],
+286 silly audit   glob: [ '10.4.5' ],
+286 silly audit   gopd: [ '1.2.0' ],
+286 silly audit   'has-symbols': [ '1.1.0' ],
+286 silly audit   'has-tostringtag': [ '1.0.2' ],
+286 silly audit   hasown: [ '2.0.2' ],
+286 silly audit   'https-proxy-agent': [ '5.0.1' ],
+286 silly audit   immer: [ '10.1.1' ],
+286 silly audit   'input-otp': [ '1.4.1' ],
+286 silly audit   internmap: [ '2.0.3' ],
+286 silly audit   'is-arrayish': [ '0.3.2' ],
+286 silly audit   'is-binary-path': [ '2.1.0' ],
+286 silly audit   'is-core-module': [ '2.16.1' ],
+286 silly audit   'is-extglob': [ '2.1.1' ],
+286 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+286 silly audit   'is-glob': [ '4.0.3' ],
+286 silly audit   'is-number': [ '7.0.0' ],
+286 silly audit   isexe: [ '2.0.0' ],
+286 silly audit   jackspeak: [ '3.4.3' ],
+286 silly audit   jiti: [ '1.21.7' ],
+286 silly audit   jose: [ '6.0.10' ],
+286 silly audit   jsonwebtoken: [ '9.0.2' ],
+286 silly audit   jwa: [ '1.4.1' ],
+286 silly audit   jws: [ '3.2.2' ],
+286 silly audit   'jwt-decode': [ '4.0.0' ],
+286 silly audit   lilconfig: [ '3.1.3' ],
+286 silly audit   'lines-and-columns': [ '1.2.4' ],
+286 silly audit   lodash: [ '4.17.21' ],
+286 silly audit   'lodash.includes': [ '4.3.0' ],
+286 silly audit   'lodash.isboolean': [ '3.0.3' ],
+286 silly audit   'lodash.isinteger': [ '4.0.4' ],
+286 silly audit   'lodash.isnumber': [ '3.0.3' ],
+286 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+286 silly audit   'lodash.isstring': [ '4.0.1' ],
+286 silly audit   'lodash.once': [ '4.1.1' ],
+286 silly audit   'lru-cache': [ '10.4.3' ],
+286 silly audit   'lucide-react': [ '0.454.0' ],
+286 silly audit   'math-intrinsics': [ '1.1.0' ],
+286 silly audit   merge2: [ '1.4.1' ],
+286 silly audit   micromatch: [ '4.0.8' ],
+286 silly audit   'mime-db': [ '1.52.0' ],
+286 silly audit   'mime-types': [ '2.1.35' ],
+286 silly audit   minimatch: [ '9.0.5' ],
+286 silly audit   minipass: [ '7.1.2' ],
+286 silly audit   ms: [ '2.1.3' ],
+286 silly audit   mz: [ '2.7.0' ],
+286 silly audit   nanoid: [ '3.3.11' ],
+286 silly audit   next: [ '15.2.4' ],
+286 silly audit   'next-themes': [ '0.4.6' ],
+286 silly audit   postcss: [ '8.4.31', '8.5.3' ],
+286 silly audit   'node-releases': [ '2.0.19' ],
+286 silly audit   nodemailer: [ '6.10.1' ],
+286 silly audit   'normalize-path': [ '3.0.0' ],
+286 silly audit   'normalize-range': [ '0.1.2' ],
+286 silly audit   'object-assign': [ '4.1.1' ],
+286 silly audit   'object-hash': [ '3.0.0' ],
+286 silly audit   'object-inspect': [ '1.13.4' ],
+286 silly audit   'package-json-from-dist': [ '1.0.1' ],
+286 silly audit   'path-key': [ '3.1.1' ],
+286 silly audit   'path-parse': [ '1.0.7' ],
+286 silly audit   'path-scurry': [ '1.11.1' ],
+286 silly audit   picocolors: [ '1.1.1' ],
+286 silly audit   picomatch: [ '2.3.1' ],
+286 silly audit   pify: [ '2.3.0' ],
+286 silly audit   pirates: [ '4.0.7' ],
+286 silly audit   'postcss-import': [ '15.1.0' ],
+286 silly audit   'postcss-js': [ '4.0.1' ],
+286 silly audit   'postcss-nested': [ '6.2.0' ],
+286 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+286 silly audit   'postcss-value-parser': [ '4.2.0' ],
+286 silly audit   prisma: [ '6.6.0' ],
+286 silly audit   'react-is': [ '18.3.1', '16.13.1' ],
+286 silly audit   'proxy-from-env': [ '1.1.0' ],
+286 silly audit   qs: [ '6.14.0' ],
+286 silly audit   'queue-microtask': [ '1.2.3' ],
+286 silly audit   razorpay: [ '2.9.6' ],
+286 silly audit   'react-day-picker': [ '8.10.1' ],
+286 silly audit   'react-hook-form': [ '7.56.0' ],
+286 silly audit   'react-remove-scroll': [ '2.6.3' ],
+286 silly audit   'react-remove-scroll-bar': [ '2.3.8' ],
+286 silly audit   'react-resizable-panels': [ '2.1.8' ],
+286 silly audit   'react-style-singleton': [ '2.2.3' ],
+286 silly audit   'read-cache': [ '1.0.0' ],
+286 silly audit   readdirp: [ '3.6.0' ],
+286 silly audit   recharts: [ '2.15.3' ],
+286 silly audit   'recharts-scale': [ '0.4.5' ],
+286 silly audit   resolve: [ '1.22.10' ],
+286 silly audit   reusify: [ '1.1.0' ],
+286 silly audit   'run-parallel': [ '1.2.0' ],
+286 silly audit   'safe-buffer': [ '5.2.1' ],
+286 silly audit   scmp: [ '2.1.0' ],
+286 silly audit   semver: [ '7.7.1' ],
+286 silly audit   sharp: [ '0.33.5' ],
+286 silly audit   'shebang-command': [ '2.0.0' ],
+286 silly audit   'shebang-regex': [ '3.0.0' ],
+286 silly audit   'side-channel': [ '1.1.0' ],
+286 silly audit   'side-channel-list': [ '1.0.0' ],
+286 silly audit   'side-channel-map': [ '1.0.1' ],
+286 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+286 silly audit   'signal-exit': [ '4.1.0' ],
+286 silly audit   'simple-swizzle': [ '0.2.2' ],
+286 silly audit   sonner: [ '1.7.4' ],
+286 silly audit   'source-map-js': [ '1.2.1' ],
+286 silly audit   streamsearch: [ '1.1.0' ],
+286 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+286 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+286 silly audit   'styled-jsx': [ '5.1.6' ],
+286 silly audit   sucrase: [ '3.35.0' ],
+286 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+286 silly audit   'tailwind-merge': [ '2.6.0' ],
+286 silly audit   tailwindcss: [ '3.4.17' ],
+286 silly audit   'tailwindcss-animate': [ '1.0.7' ],
+286 silly audit   'postcss-load-config': [ '4.0.2' ],
+286 silly audit   thenify: [ '3.3.1' ],
+286 silly audit   'thenify-all': [ '1.6.0' ],
+286 silly audit   'tiny-invariant': [ '1.3.3' ],
+286 silly audit   'to-regex-range': [ '5.0.1' ],
+286 silly audit   'ts-interface-checker': [ '0.1.13' ],
+286 silly audit   tslib: [ '2.8.1' ],
+286 silly audit   twilio: [ '5.5.2' ],
+286 silly audit   typescript: [ '5.8.3' ],
+286 silly audit   'undici-types': [ '6.21.0' ],
+286 silly audit   'update-browserslist-db': [ '1.1.3' ],
+286 silly audit   'use-callback-ref': [ '1.3.3' ],
+286 silly audit   'use-sidecar': [ '1.1.3' ],
+286 silly audit   'use-sync-external-store': [ '1.5.0' ],
+286 silly audit   'util-deprecate': [ '1.0.2' ],
+286 silly audit   vaul: [ '0.9.9' ],
+286 silly audit   'victory-vendor': [ '36.9.2' ],
+286 silly audit   which: [ '2.0.2' ],
+286 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+286 silly audit   xmlbuilder: [ '13.0.2' ],
+286 silly audit   yaml: [ '2.7.1' ],
+286 silly audit   zod: [ '3.24.3' ],
+286 silly audit   zustand: [ '5.0.3' ],
+286 silly audit   react: [ '18.3.1' ],
+286 silly audit   'react-dom': [ '18.3.1' ],
+286 silly audit   '@radix-ui/react-collapsible': [ '1.1.8', '1.1.7' ],
+286 silly audit   '@radix-ui/react-dialog': [ '1.1.11', '1.1.10' ],
+286 silly audit   '@radix-ui/react-toggle': [ '1.1.6' ],
+286 silly audit   '@radix-ui/react-collection': [ '1.1.4' ],
+286 silly audit   '@radix-ui/react-primitive': [ '2.1.0' ],
+286 silly audit   '@radix-ui/react-presence': [ '1.1.3', '1.1.4' ],
+286 silly audit   '@radix-ui/react-menu': [ '2.1.11' ],
+286 silly audit   '@radix-ui/react-dismissable-layer': [ '1.1.7' ],
+286 silly audit   '@radix-ui/react-focus-scope': [ '1.1.4' ],
+286 silly audit   '@radix-ui/react-portal': [ '1.1.6' ],
+286 silly audit   '@radix-ui/react-use-escape-keydown': [ '1.1.1' ],
+286 silly audit   '@radix-ui/react-popper': [ '1.2.4' ],
+286 silly audit   '@radix-ui/react-roving-focus': [ '1.1.7' ],
+286 silly audit   '@radix-ui/react-visually-hidden': [ '1.2.0' ],
+286 silly audit   '@floating-ui/react-dom': [ '2.1.2' ],
+286 silly audit   '@radix-ui/react-arrow': [ '1.1.4' ],
+286 silly audit   '@radix-ui/react-use-rect': [ '1.1.1' ],
+286 silly audit   '@radix-ui/rect': [ '1.1.1' ],
+286 silly audit   '@floating-ui/dom': [ '1.6.13' ],
+286 silly audit   '@floating-ui/core': [ '1.6.9' ],
+286 silly audit   '@floating-ui/utils': [ '0.2.9' ],
+286 silly audit   'loose-envify': [ '1.4.0' ],
+286 silly audit   'js-tokens': [ '4.0.0' ],
+286 silly audit   scheduler: [ '0.23.2' ],
+286 silly audit   'react-smooth': [ '4.0.4' ],
+286 silly audit   'fast-equals': [ '5.2.2' ],
+286 silly audit   'prop-types': [ '15.8.1' ],
+286 silly audit   'react-transition-group': [ '4.4.5' ],
+286 silly audit   '@babel/runtime': [ '7.27.0' ],
+286 silly audit   'dom-helpers': [ '5.2.1' ],
+286 silly audit   'regenerator-runtime': [ '0.14.1' ]
+286 silly audit }
+287 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\fsevents
+288 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\fsevents' ]
+289 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-win32-arm64-msvc
+290 silly reify mark deleted [
+290 silly reify   'D:\\ok practice stage 4\\node_modules\\@next\\swc-win32-arm64-msvc'
+290 silly reify ]
+291 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-linux-x64-musl
+292 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@next\\swc-linux-x64-musl' ]
+293 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-linux-x64-gnu
+294 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@next\\swc-linux-x64-gnu' ]
+295 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-linux-arm64-musl
+296 silly reify mark deleted [
+296 silly reify   'D:\\ok practice stage 4\\node_modules\\@next\\swc-linux-arm64-musl'
+296 silly reify ]
+297 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-linux-arm64-gnu
+298 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@next\\swc-linux-arm64-gnu' ]
+299 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-darwin-x64
+300 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@next\\swc-darwin-x64' ]
+301 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@next\swc-darwin-arm64
+302 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@next\\swc-darwin-arm64' ]
+303 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-win32-ia32
+304 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-win32-ia32' ]
+305 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-wasm32
+306 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-wasm32' ]
+307 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@emnapi\runtime
+308 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@emnapi\\runtime' ]
+309 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linuxmusl-x64
+310 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linuxmusl-x64' ]
+311 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linuxmusl-arm64
+312 silly reify mark deleted [
+312 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linuxmusl-arm64'
+312 silly reify ]
+313 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linux-x64
+314 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linux-x64' ]
+315 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linux-s390x
+316 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linux-s390x' ]
+317 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linux-arm64
+318 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linux-arm64' ]
+319 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-linux-arm
+320 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-linux-arm' ]
+321 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linuxmusl-x64
+322 silly reify mark deleted [
+322 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+322 silly reify ]
+323 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linuxmusl-arm64
+324 silly reify mark deleted [
+324 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+324 silly reify ]
+325 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linux-x64
+326 silly reify mark deleted [
+326 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linux-x64'
+326 silly reify ]
+327 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linux-s390x
+328 silly reify mark deleted [
+328 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linux-s390x'
+328 silly reify ]
+329 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linux-arm64
+330 silly reify mark deleted [
+330 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linux-arm64'
+330 silly reify ]
+331 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-linux-arm
+332 silly reify mark deleted [
+332 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-linux-arm'
+332 silly reify ]
+333 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-darwin-x64
+334 silly reify mark deleted [
+334 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-darwin-x64'
+334 silly reify ]
+335 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-libvips-darwin-arm64
+336 silly reify mark deleted [
+336 silly reify   'D:\\ok practice stage 4\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+336 silly reify ]
+337 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-darwin-x64
+338 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-darwin-x64' ]
+339 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@img\sharp-darwin-arm64
+340 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@img\\sharp-darwin-arm64' ]
+341 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\win32-ia32
+342 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\win32-ia32' ]
+343 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\win32-arm64
+344 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\win32-arm64' ]
+345 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\sunos-x64
+346 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\sunos-x64' ]
+347 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\openbsd-x64
+348 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\openbsd-x64' ]
+349 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\openbsd-arm64
+350 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\openbsd-arm64' ]
+351 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\netbsd-x64
+352 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\netbsd-x64' ]
+353 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\netbsd-arm64
+354 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\netbsd-arm64' ]
+355 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-x64
+356 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-x64' ]
+357 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-s390x
+358 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-s390x' ]
+359 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-riscv64
+360 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-riscv64' ]
+361 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-ppc64
+362 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-ppc64' ]
+363 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-mips64el
+364 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-mips64el' ]
+365 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-loong64
+366 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-loong64' ]
+367 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-ia32
+368 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-ia32' ]
+369 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-arm64
+370 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-arm64' ]
+371 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\linux-arm
+372 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\linux-arm' ]
+373 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\freebsd-x64
+374 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\freebsd-x64' ]
+375 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\freebsd-arm64
+376 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\freebsd-arm64' ]
+377 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\darwin-x64
+378 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\darwin-x64' ]
+379 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\darwin-arm64
+380 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\darwin-arm64' ]
+381 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\android-x64
+382 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\android-x64' ]
+383 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\android-arm64
+384 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\android-arm64' ]
+385 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\android-arm
+386 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\android-arm' ]
+387 verbose reify failed optional dependency D:\ok practice stage 4\node_modules\@esbuild\aix-ppc64
+388 silly reify mark deleted [ 'D:\\ok practice stage 4\\node_modules\\@esbuild\\aix-ppc64' ]
+389 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.4.3.tgz 0ms (cache hit)
+390 http cache scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz 0ms (cache hit)
+391 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz 0ms (cache hit)
+392 http cache react@https://registry.npmjs.org/react/-/react-18.3.1.tgz 0ms (cache hit)
+393 http cache @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.11.tgz 0ms (cache hit)
+394 http cache @radix-ui/react-collapsible@https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.8.tgz 0ms (cache hit)
+395 http cache @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.4.tgz 0ms (cache hit)
+396 http cache @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.4.tgz 0ms (cache hit)
+397 http cache @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.10.tgz 0ms (cache hit)
+398 http cache @radix-ui/react-collapsible@https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.7.tgz 0ms (cache hit)
+399 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz. Extracting by manifest.
+400 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz. Extracting by manifest.
+401 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-18.3.1.tgz. Extracting by manifest.
+402 silly tarball no local data for @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.11.tgz. Extracting by manifest.
+403 silly tarball no local data for @radix-ui/react-collapsible@https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.8.tgz. Extracting by manifest.
+404 silly tarball no local data for @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.4.tgz. Extracting by manifest.
+405 silly tarball no local data for @radix-ui/react-presence@https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.4.tgz. Extracting by manifest.
+406 silly tarball no local data for @radix-ui/react-dialog@https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.10.tgz. Extracting by manifest.
+407 silly tarball no local data for @radix-ui/react-collapsible@https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.7.tgz. Extracting by manifest.
+408 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz 205ms (cache miss)
+409 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 530ms
+410 silly audit report {}
+411 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.4.tgz 1432ms (cache miss)
+412 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.8.tgz 1534ms (cache miss)
+413 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-collapsible/-/react-collapsible-1.1.7.tgz 1728ms (cache miss)
+414 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.4.tgz 1772ms (cache miss)
+415 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.11.tgz 1778ms (cache miss)
+416 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.10.tgz 1778ms (cache miss)
+417 http fetch GET 200 https://registry.npmjs.org/react/-/react-18.3.1.tgz 2013ms (cache miss)
+418 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz 2224ms (cache miss)
+419 silly ADD
+420 silly ADD
+421 silly ADD
+422 silly ADD
+423 silly ADD
+424 silly ADD
+425 silly ADD
+426 silly ADD
+427 silly ADD
+428 silly ADD
+429 silly ADD
+430 silly ADD
+431 silly ADD
+432 silly ADD
+433 silly ADD
+434 silly ADD
+435 silly ADD
+436 silly ADD
+437 silly ADD
+438 silly ADD
+439 silly ADD
+440 silly ADD
+441 silly ADD
+442 silly ADD
+443 silly ADD
+444 silly ADD
+445 silly ADD
+446 silly ADD
+447 silly ADD
+448 silly ADD
+449 silly ADD
+450 silly ADD
+451 silly ADD
+452 silly ADD
+453 silly ADD
+454 silly ADD
+455 silly ADD
+456 silly ADD
+457 silly ADD
+458 silly ADD
+459 silly ADD
+460 silly ADD
+461 silly ADD
+462 silly ADD
+463 silly ADD
+464 silly ADD
+465 silly ADD
+466 silly ADD
+467 silly ADD
+468 silly ADD
+469 silly ADD
+470 silly CHANGE node_modules/scheduler
+471 silly CHANGE node_modules/react-dom
+472 silly CHANGE node_modules/react
+473 silly CHANGE node_modules/@radix-ui/react-dialog
+474 silly ADD node_modules/@radix-ui/react-dialog/node_modules/@radix-ui/react-presence
+475 silly CHANGE node_modules/@radix-ui/react-collapsible
+476 silly ADD node_modules/@radix-ui/react-collapsible/node_modules/@radix-ui/react-presence
+477 silly ADD node_modules/@radix-ui/react-alert-dialog/node_modules/@radix-ui/react-dialog
+478 silly ADD node_modules/@radix-ui/react-accordion/node_modules/@radix-ui/react-collapsible
+479 verbose cwd D:\ok practice stage 4
+480 verbose os Windows_NT 10.0.26100
+481 verbose node v22.14.0
+482 verbose npm  v10.9.2
+483 verbose exit 0
+484 info ok
