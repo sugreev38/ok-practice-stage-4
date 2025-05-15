@@ -1,13 +1,13 @@
 import { NextResponse } from "next/server";
 import { cookies } from "next/headers";
-import jwt from "jsonwebtoken";
+import { verifyToken } from "@/lib/auth";
 
-export const dynamic = "force-dynamic"; // allow reading dynamic cookies
+export const dynamic = "force-dynamic"; // Changed to allow reading dynamic cookies
 
 export async function GET() {
   try {
-    const cookieStore = await cookies();
-    const token = cookieStore.get("auth_token")?.value;
+    const cookieStore = cookies();
+    const token = (await cookieStore).get("auth_token")?.value;
 
     if (!token) {
       return NextResponse.json(
@@ -37,13 +37,5 @@ export async function GET() {
       { status: 401 }
     );
   }
-}
-
-function verifyToken(token: string) {
-  try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET!);
-    return decoded;
-  } catch {
-    return null;
-  }
+  
 }

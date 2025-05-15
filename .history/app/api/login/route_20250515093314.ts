@@ -1,3 +1,5 @@
+// Next.js API route for user login with JWT auth and secure cookie handling
+
 import { NextResponse } from "next/server"
 import { cookies } from "next/headers"
 import bcrypt from "bcryptjs"
@@ -8,6 +10,7 @@ export async function POST(request: Request) {
   try {
     const { email, password } = await request.json()
 
+    // 1. Input validation
     if (!email || !password) {
       return NextResponse.json(
         { success: false, error: "Email and password are required" },
@@ -15,6 +18,7 @@ export async function POST(request: Request) {
       )
     }
 
+    // 2. Find user by email
     const user = await prisma.user.findUnique({ where: { email } })
 
     if (!user) {
@@ -24,6 +28,7 @@ export async function POST(request: Request) {
       )
     }
 
+    // 3. Check password
     const isPasswordValid = await bcrypt.compare(password, user.password)
     if (!isPasswordValid) {
       return NextResponse.json(
@@ -32,6 +37,7 @@ export async function POST(request: Request) {
       )
     }
 
+    // 4. Check if user is verified
     if (!user.isVerified) {
       return NextResponse.json(
         {
@@ -46,6 +52,7 @@ export async function POST(request: Request) {
       )
     }
 
+    // 5. Create JWT token
     const token = await createJwtToken({
       id: user.id,
       name: user.name,
@@ -53,17 +60,18 @@ export async function POST(request: Request) {
       isVerified: true,
     })
 
-    const cookieStore = cookies()
-    cookieStore.set({
+    // 6. Set auth cookie
+    cookies().set({
       name: "auth_token",
       value: token,
       httpOnly: true,
       path: "/",
-      maxAge: 60 * 60 * 24 * 7,
+      maxAge: 60 * 60 * 24 * 7, // 7 days
       secure: process.env.NODE_ENV === "production",
       sameSite: "lax",
     })
 
+    // 7. Success response
     return NextResponse.json({
       success: true,
       token,

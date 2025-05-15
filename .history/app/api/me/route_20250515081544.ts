@@ -6,8 +6,8 @@ export const dynamic = "force-dynamic"; // allow reading dynamic cookies
 
 export async function GET() {
   try {
-    const cookieStore = await cookies();
-    const token = cookieStore.get("auth_token")?.value;
+    const cookieStore = cookies();
+    const token = (await cookieStore).get("auth_token")?.value;
 
     if (!token) {
       return NextResponse.json(
@@ -39,7 +39,7 @@ export async function GET() {
   }
 }
 
-function verifyToken(token: string) {
+export function verifyjToken(token: string) {
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET!);
     return decoded;

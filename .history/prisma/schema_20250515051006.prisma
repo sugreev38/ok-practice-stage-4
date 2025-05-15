@@ -28,17 +28,20 @@ model User {
 }
 
 model VerificationToken {
-  id        String   @id @default(uuid())
+  id        String    @id @default(uuid())
   token     String
-  email     String
-  phone     String?   // Store phone number, optional
-  type      String    @default("EMAIL")
+  email     String?
+  phone         String?
+phoneVerified Boolean   @default(false)
+
+  type      String    // "EMAIL" or "PHONE"
   expires   DateTime
   used      Boolean   @default(false)
   userId    String?
   user      User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
-  createdAt DateTime @default(now())
+  createdAt DateTime  @default(now())
 }
+
 model Test {
   id             Int      @id @default(autoincrement())
   title          String

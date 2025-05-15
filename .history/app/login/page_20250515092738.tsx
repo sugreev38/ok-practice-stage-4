@@ -1,11 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { useRouter } from "next/navigation"
 
 export default function LoginPage() {
-  const router = useRouter()
-
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [loading, setLoading] = useState(false)
@@ -32,7 +29,8 @@ export default function LoginPage() {
         setError(data.error || "Please verify your account")
       } else if (res.ok) {
         alert("Login successful! Welcome " + data.user.name)
-        router.push("/dashboard")
+        // Optionally redirect:
+         router.push("/dashboard")
       } else {
         setError(data.error || "Login failed")
       }
@@ -77,17 +75,6 @@ export default function LoginPage() {
           {loading ? "Logging in..." : "Login"}
         </button>
       </form>
-
-      <div style={{ textAlign: "center", marginTop: 20 }}>
-        <p>Don't have an account?</p>
-        <button
-          onClick={() => router.push("/register")}
-          disabled={loading}
-          style={{ width: "100%", padding: 10 }}
-        >
-          Register
-        </button>
-      </div>
 
       {error && (
         <p style={{ color: "red", marginTop: 10 }}>

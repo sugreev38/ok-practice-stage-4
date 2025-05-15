@@ -8,10 +8,7 @@ export async function POST(request: Request) {
 
     // Validate input
     if (!email || !password) {
-      return NextResponse.json(
-        { success: false, error: "Email and password are required" },
-        { status: 400 }
-      )
+      return NextResponse.json({ success: false, error: "Email and password are required" }, { status: 400 })
     }
 
     // Check if user already exists
@@ -20,24 +17,22 @@ export async function POST(request: Request) {
     })
 
     if (existingUser) {
-      return NextResponse.json(
-        { success: false, error: "Email already in use" },
-        { status: 400 }
-      )
+      return NextResponse.json({ success: false, error: "Email already in use" }, { status: 400 })
     }
 
     // Hash password
     const hashedPassword = await bcrypt.hash(password, 10)
 
-    // Create user with only email verification logic
+    // Create user with verification status set to false
     const user = await prisma.user.create({
       data: {
         name: name || null,
         email,
         password: hashedPassword,
-        phone: phone || null,         // ✅ Store phone, no verification
-        isVerified: false,            // ❗ Email-based account verification
+        phone: phone || null,
+        isVerified: false,
         emailVerified: false,
+   z
       },
     })
 
@@ -54,7 +49,7 @@ export async function POST(request: Request) {
         error: "Failed to register",
         details: error instanceof Error ? error.message : "Unknown error",
       },
-      { status: 500 }
+      { status: 500 },
     )
   }
 }

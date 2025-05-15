@@ -1,65 +1,53 @@
+// /app/api/login/route.ts
+"use client"
 import { NextResponse } from "next/server"
 import { cookies } from "next/headers"
 import bcrypt from "bcryptjs"
 import prisma from "@/lib/prisma"
-import { createJwtToken } from "@/lib/auth"
+import createJwtToken from "@/lib/auth"
 
 export async function POST(request: Request) {
   try {
     const { email, password } = await request.json()
 
     if (!email || !password) {
-      return NextResponse.json(
-        { success: false, error: "Email and password are required" },
-        { status: 400 }
-      )
+      return NextResponse.json({ success: false, error: "Email and password are required" }, { status: 400 })
     }
 
     const user = await prisma.user.findUnique({ where: { email } })
 
     if (!user) {
-      return NextResponse.json(
-        { success: false, error: "Invalid email or password" },
-        { status: 400 }
-      )
+      return NextResponse.json({ success: false, error: "Invalid email or password" }, { status: 400 })
     }
 
     const isPasswordValid = await bcrypt.compare(password, user.password)
     if (!isPasswordValid) {
-      return NextResponse.json(
-        { success: false, error: "Invalid email or password" },
-        { status: 400 }
-      )
+      return NextResponse.json({ success: false, error: "Invalid email or password" }, { status: 400 })
     }
 
     if (!user.isVerified) {
       return NextResponse.json(
         {
           success: false,
-          error: "Email not verified",
+          error: "Account not verified",
           requiresVerification: true,
           userId: user.id,
-          isVerified: false,
-          phone: user.phone,
+          emailVerified: user.emailVerified,
+          phoneVerified: user.phoneVerified,
         },
-        { status: 403 }
+        { status: 403 },
       )
     }
 
-    const token = await createJwtToken({
-      id: user.id,
-      name: user.name,
-      email: user.email,
-      isVerified: true,
-    })
+    // Generate the JWT token using the user's payload
+    const token = await createJwtToken({ id: user.id, name: user.name, email: user.email, isVerified: user.isVerified })
 
-    const cookieStore = cookies()
-    cookieStore.set({
+    (await cookies()).set({
       name: "auth_token",
       value: token,
       httpOnly: true,
       path: "/",
-      maxAge: 60 * 60 * 24 * 7,
+      maxAge: 60 * 60 * 24 * 7, // 7 days
       secure: process.env.NODE_ENV === "production",
       sameSite: "lax",
     })
@@ -71,19 +59,18 @@ export async function POST(request: Request) {
         id: user.id,
         name: user.name,
         email: user.email,
-        isVerified: true,
-        phone: user.phone,
+        isVerified: user.isVerified,
       },
     })
   } catch (error) {
-    console.error("Login error:", error instanceof Error ? error.message : error)
+    console.error("Login error:", error)
     return NextResponse.json(
       {
         success: false,
         error: "Failed to login",
         details: error instanceof Error ? error.message : "Unknown error",
       },
-      { status: 500 }
+      { status: 500 },
     )
   }
 }

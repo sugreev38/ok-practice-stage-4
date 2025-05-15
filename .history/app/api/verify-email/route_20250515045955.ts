@@ -133,9 +133,6 @@ export async function PUT(request: Request) {
     }
 
     // Optional: Issue login token after verification
-    if (!verificationTokenRecord.userId) {
-      return NextResponse.json({ success: false, error: "User ID missing from verification token" }, { status: 400 })
-    }
     const jwtToken = generateLoginToken(verificationTokenRecord.userId)
 
     return NextResponse.json({

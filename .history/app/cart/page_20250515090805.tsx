@@ -54,7 +54,7 @@ export default function CartPage() {
         name: "TestHub",
         description: "Purchase Tests",
         image: "/placeholder.svg?height=50&width=50",
-        order_id: result.order!.id, // Order ID from the created order
+        order_id: result.order.id, // Order ID from the created order
         handler: (response: any) => {
           // Handle successful payment
 
